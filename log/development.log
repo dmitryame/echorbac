@@ -299,3 +299,500 @@ ActionController::RoutingError (No route matches "/images/edit.png" with {:metho
   /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
 
 Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-24 23:05:20) [GET]
+  Parameters: {"id"=>"4b3438f30bdb8205a4000001"}
+Rendering template within layouts/clients
+Rendering clients/show
+Completed in 35ms (View: 12 | 200 OK [http://localhost/clients/4b3438f30bdb8205a4000001]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:05:20) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#edit (for 127.0.0.1 at 2009-12-24 23:05:36) [GET]
+  Parameters: {"id"=>"4b3438f30bdb8205a4000001"}
+Rendering template within layouts/clients
+Rendering clients/edit
+Completed in 52ms (View: 29 | 200 OK [http://localhost/clients/4b3438f30bdb8205a4000001/edit]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:05:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#update (for 127.0.0.1 at 2009-12-24 23:05:39) [PUT]
+  Parameters: {"commit"=>"Update", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3438f30bdb8205a4000001", "client"=>{"name"=>"qweeeeqwe"}}
+Redirected to http://localhost:3000/clients/4b3438f30bdb8205a4000001
+Completed in 31ms | 302 Found [http://localhost/clients/4b3438f30bdb8205a4000001]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-24 23:05:39) [GET]
+  Parameters: {"id"=>"4b3438f30bdb8205a4000001"}
+Rendering template within layouts/clients
+Rendering clients/show
+Completed in 42ms (View: 14 | 200 OK [http://localhost/clients/4b3438f30bdb8205a4000001]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:05:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-24 23:05:41) [GET]
+Rendering template within layouts/clients
+Rendering clients/index
+Completed in 44ms (View: 22 | 200 OK [http://localhost/clients]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:05:41) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#destroy (for 127.0.0.1 at 2009-12-24 23:05:45) [DELETE]
+  Parameters: {"authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3438f30bdb8205a4000001"}
+Redirected to http://localhost:3000/clients
+Completed in 126ms | 302 Found [http://localhost/clients/4b3438f30bdb8205a4000001]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-24 23:05:45) [GET]
+Rendering template within layouts/clients
+Rendering clients/index
+Completed in 31ms (View: 9 | 200 OK [http://localhost/clients]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:05:45) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#new (for 127.0.0.1 at 2009-12-24 23:05:48) [GET]
+Rendering template within layouts/clients
+Rendering clients/new
+Completed in 32ms (View: 13 | 200 OK [http://localhost/clients/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:05:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#create (for 127.0.0.1 at 2009-12-24 23:05:51) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "client"=>{"name"=>"eqwe"}}
+Redirected to http://localhost:3000/clients/4b343a1f0bdb8205a4000002
+Completed in 27ms | 302 Found [http://localhost/clients]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-24 23:05:51) [GET]
+  Parameters: {"id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/clients
+Rendering clients/show
+Completed in 35ms (View: 12 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:05:51) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-24 23:05:53) [GET]
+Rendering template within layouts/clients
+Rendering clients/index
+Completed in 44ms (View: 21 | 200 OK [http://localhost/clients]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:05:53) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#new (for 127.0.0.1 at 2009-12-24 23:05:55) [GET]
+Rendering template within layouts/clients
+Rendering clients/new
+Completed in 34ms (View: 14 | 200 OK [http://localhost/clients/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:05:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#create (for 127.0.0.1 at 2009-12-24 23:05:56) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "client"=>{"name"=>""}}
+Redirected to http://localhost:3000/clients/4b343a240bdb8205a4000003
+Completed in 27ms | 302 Found [http://localhost/clients]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-24 23:05:56) [GET]
+  Parameters: {"id"=>"4b343a240bdb8205a4000003"}
+Rendering template within layouts/clients
+Rendering clients/show
+Completed in 124ms (View: 12 | 200 OK [http://localhost/clients/4b343a240bdb8205a4000003]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:05:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-24 23:06:00) [GET]
+Rendering template within layouts/clients
+Rendering clients/index
+Completed in 58ms (View: 34 | 200 OK [http://localhost/clients]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:06:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#new (for 127.0.0.1 at 2009-12-24 23:06:01) [GET]
+Rendering template within layouts/clients
+Rendering clients/new
+Completed in 32ms (View: 14 | 200 OK [http://localhost/clients/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:06:01) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#create (for 127.0.0.1 at 2009-12-24 23:06:03) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "client"=>{"name"=>""}}
+Redirected to http://localhost:3000/clients/4b343a2b0bdb8205a4000004
+Completed in 122ms | 302 Found [http://localhost/clients]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-24 23:06:03) [GET]
+  Parameters: {"id"=>"4b343a2b0bdb8205a4000004"}
+Rendering template within layouts/clients
+Rendering clients/show
+Completed in 35ms (View: 12 | 200 OK [http://localhost/clients/4b343a2b0bdb8205a4000004]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:06:03) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-24 23:06:04) [GET]
+Rendering template within layouts/clients
+Rendering clients/index
+Completed in 77ms (View: 50 | 200 OK [http://localhost/clients]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:06:04) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#destroy (for 127.0.0.1 at 2009-12-24 23:06:09) [DELETE]
+  Parameters: {"authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b343a240bdb8205a4000003"}
+Redirected to http://localhost:3000/clients
+Completed in 32ms | 302 Found [http://localhost/clients/4b343a240bdb8205a4000003]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-24 23:06:09) [GET]
+Rendering template within layouts/clients
+Rendering clients/index
+Completed in 167ms (View: 37 | 200 OK [http://localhost/clients]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:06:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#destroy (for 127.0.0.1 at 2009-12-24 23:06:12) [DELETE]
+  Parameters: {"authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b343a2b0bdb8205a4000004"}
+Redirected to http://localhost:3000/clients
+Completed in 38ms | 302 Found [http://localhost/clients/4b343a2b0bdb8205a4000004]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-24 23:06:12) [GET]
+Rendering template within layouts/clients
+Rendering clients/index
+Completed in 48ms (View: 23 | 200 OK [http://localhost/clients]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:06:12) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-24 23:07:58) [GET]
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_profile (5.0ms)
+Rendered shared/_footer (2.5ms)
+Completed in 88ms (View: 65 | 200 OK [http://localhost/clients]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:07:59) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/defaults.css" with {:method=>:get}):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-24 23:08:50) [GET]
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.7ms)
+Completed in 47ms (View: 25 | 200 OK [http://localhost/clients]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-24 23:09:00) [GET]
+  Parameters: {"id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/clients
+Rendering clients/show
+Rendered shared/_profile (2.9ms)
+Rendered shared/_footer (0.8ms)
+Completed in 39ms (View: 17 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002]
+
+
+Processing ApplicationController#ourclients (for 127.0.0.1 at 2009-12-24 23:09:31) [GET]
+
+NameError (uninitialized constant HomeController):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (48.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:09:45) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+
+NameError (uninitialized constant SubjectsController):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (48.6ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
