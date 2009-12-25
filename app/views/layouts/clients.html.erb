@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Preallowed: <%= controller.action_name %></title>
+	<%= stylesheet_link_tag "defaults" %>
+	<%= javascript_include_tag :defaults %>
+</head>
+
+<body>
+	<%= render(:partial => "shared/profile") %> 	
+
+	<%if @client%>		
+		<div class="menu">
+			<%= link_to 'subjects', client_subjects_path(@client) %>
+			<%= link_to 'roles', client_roles_path(@client) %> 
+			<%= link_to 'resources', client_resources_path(@client) %> 
+		</div>
+	<%end%>
+
+
+	<div id="content">
+		<p style="color: green"><%= flash[:notice] %></p>
+		<div id="main">
+			<%= yield :layout %>
+		</div>
+	</div>
+
+	<%= render(:partial => "shared/footer") %> 	
+</body>
+</html>

@@ -1,0 +1,8 @@
+<p>
+  <b>Client Name:</b>
+  <%=h @client.name %>
+</p>
+
+
+<%= link_to image_tag("back.png", :border => 0, :width => 16, :height => 16), clients_path %>
+<%= link_to image_tag("edit.png", :border => 0, :width => 16, :height => 16), edit_client_path(@client) %> 

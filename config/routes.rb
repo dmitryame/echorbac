@@ -1,4 +1,30 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :clients, :member => {:subject_id_from_name => :get, :role_id_from_name => :get}#TODO: write functional test    
+  map.resources :clients do |client|
+    client.resources :subjects,
+    :member => {
+      :has_access => :get,    # the url should look like this  /clients/:client_id/subjects/:id/has_access  params[:resource]=(resoruce string described by REG EXP)
+      :is_subject_in_role => :get,
+      :add_role => :put,
+      :remove_role => :put      
+    }     
+    client.resources :roles,
+    :member => {
+      :add_subject => :put,
+      :remove_subject => :put,
+      :add_resource => :put,
+      :remove_resource => :put
+    }
+    client.resources :resources,
+    :member => {
+      :add_role => :put,
+      :remove_role => :put      
+    }     
+    
+  end
+
+  map.resources :profiles
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:
@@ -31,13 +57,18 @@ ActionController::Routing::Routes.draw do |map|
   #   end
 
   # You can have the root of your site routed with map.root -- just remember to delete public/index.html.
-  # map.root :controller => "welcome"
+  map.root :controller => "home"
 
   # See how all your routes lay out with "rake routes"
 
   # Install the default routes as the lowest priority.
-  # Note: These default routes make all actions in every controller accessible via GET requests. You should
-  # consider removing or commenting them out if you're using named routes and resources.
-  map.connect ':controller/:action/:id'
-  map.connect ':controller/:action/:id.:format'
+  # map.connect ':controller/:action/:id'
+  # map.connect ':controller/:action/:id.:format'
+    map.home '/home/index', :controller => "home", :action => "index"
+    map.insufficient '/home/insufficient', :controller => "home", :action => "insufficient"
+    map.ourclients '/home/ourclients', :controller => "home", :action => "ourclients"
+    map.help '/home/help', :controller => "home", :action => "help"
+    map.faq '/home/faq', :controller => "home", :action => "faq"
+    map.terms '/home/terms', :controller => "home", :action => "terms"
+    map.login '/login', :controller => "subjects", :action => "login"  
 end
