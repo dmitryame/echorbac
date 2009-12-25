@@ -1884,3 +1884,1234 @@ Rendering resources/index
 Rendered shared/_profile (3.9ms)
 Rendered shared/_footer (2.5ms)
 Completed in 180ms (View: 73 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-25 10:34:43) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (26.0ms)
+Rendered shared/_footer (3.2ms)
+Completed in 532ms (View: 304 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:34:44) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (17.0ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.7ms)
+Completed in 209ms (View: 146 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:34:50) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (10.0ms)
+Completed in 101ms (View: 25 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006/add_role]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:35:58) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (9.1ms)
+Completed in 84ms (View: 14 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006/add_role]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:37:06) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (8.6ms)
+Completed in 171ms (View: 14 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006/add_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:37:17) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (8.9ms)
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 92ms (View: 28 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:37:21) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (8.8ms)
+Rendered shared/_profile (2.9ms)
+Rendered shared/_footer (0.9ms)
+Completed in 178ms (View: 29 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-25 10:37:23) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_profile (2.7ms)
+Rendered shared/_footer (0.9ms)
+Completed in 235ms (View: 177 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 10:37:25) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered roles/_draggable_subjects (19.1ms)
+Rendered roles/_draggable_resources (17.6ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 141ms (View: 80 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-25 10:37:29) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 97ms (View: 39 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:37:31) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (9.7ms)
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 93ms (View: 30 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:37:37) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (11.7ms)
+Completed in 87ms (View: 17 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006/add_role]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:37:51) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+
+Mongo::ConnectionFailure (Operation failed with the following exception: connection closed):
+  mongo (0.18.1) lib/./lib/mongo/connection.rb:518:in `receive_message_on_socket'
+  mongo (0.18.1) lib/./lib/mongo/connection.rb:424:in `receive_header'
+  mongo (0.18.1) lib/./lib/mongo/connection.rb:417:in `receive'
+  mongo (0.18.1) lib/./lib/mongo/connection.rb:245:in `receive_message'
+  mongo (0.18.1) lib/./lib/mongo/cursor.rb:307:in `send_query_if_needed'
+  mongo (0.18.1) lib/./lib/mongo/cursor.rb:282:in `refill_via_get_more'
+  mongo (0.18.1) lib/./lib/mongo/cursor.rb:270:in `num_remaining'
+  mongo (0.18.1) lib/./lib/mongo/cursor.rb:55:in `next_object'
+  mongo (0.18.1) lib/./lib/mongo/collection.rb:161:in `find_one'
+  /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/document.rb:355:in `find_one'
+  /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/document.rb:361:in `find_one!'
+  /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/document.rb:70:in `find!'
+  /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/document.rb:78:in `find'
+  app/controllers/subjects_controller.rb:154:in `find_client'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (80.0ms)
+Rendered rescues/_request_and_response (2.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:37:56) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+
+Mongo::ConnectionFailure (Operation failed with the following exception: Broken pipe - send(2)):
+  mongo (0.18.1) lib/./lib/mongo/connection.rb:503:in `send_message_on_socket'
+  mongo (0.18.1) lib/./lib/mongo/connection.rb:244:in `receive_message'
+  mongo (0.18.1) lib/./lib/mongo/cursor.rb:307:in `send_query_if_needed'
+  mongo (0.18.1) lib/./lib/mongo/cursor.rb:282:in `refill_via_get_more'
+  mongo (0.18.1) lib/./lib/mongo/cursor.rb:270:in `num_remaining'
+  mongo (0.18.1) lib/./lib/mongo/cursor.rb:55:in `next_object'
+  mongo (0.18.1) lib/./lib/mongo/collection.rb:161:in `find_one'
+  /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/document.rb:355:in `find_one'
+  /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/document.rb:361:in `find_one!'
+  /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/document.rb:70:in `find!'
+  /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/document.rb:78:in `find'
+  app/controllers/subjects_controller.rb:154:in `find_client'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (180.1ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:38:12) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (15.3ms)
+Rendered shared/_profile (4.3ms)
+Rendered shared/_footer (2.5ms)
+Completed in 355ms (View: 115 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:38:19) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (9.0ms)
+Completed in 190ms (View: 118 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006/add_role]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:39:54) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+
+***** Debugger requested, but was not available: Start server with --debugger to enable *****
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (8.6ms)
+Completed in 90ms (View: 13 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006/add_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:40:54) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (24.4ms)
+Rendered shared/_profile (8.3ms)
+Rendered shared/_footer (10.4ms)
+Completed in 475ms (View: 168 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:40:58) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:43:14) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (16.3ms)
+Rendered shared/_profile (4.6ms)
+Rendered shared/_footer (2.5ms)
+Completed in 345ms (View: 108 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:43:17) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+
+ActionView::TemplateError (undefined method `name' for 4b34481d0bdb8205a4000008:Mongo::ObjectID) on line #12 of app/views/subjects/_draggable_roles.html.erb:
+9: 					<% @subject.roles.each do |role|%>
+10: 						<%domid="subjectroles_" + dom_id(role)%>
+11: 						<li class="role_li" id='<%=domid%>'>
+12: 							<%=role.name%>
+13: 						</li>
+14: 						<%=draggable_element(domid, :ghosting=>true, :revert=>false)%>
+15: 					<%end%>
+
+    app/views/subjects/_draggable_roles.html.erb:12
+    app/views/subjects/_draggable_roles.html.erb:9:in `each'
+    app/views/subjects/_draggable_roles.html.erb:9
+    app/views/subjects/add_role.rjs:1:in `_run_rjs_app47views47subjects47add_role46rjs'
+    app/views/subjects/add_role.rjs:1:in `_run_rjs_app47views47subjects47add_role46rjs'
+    app/controllers/subjects_controller.rb:125:in `add_role'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (121.8ms)
+Rendered rescues/_request_and_response (2.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:43:20) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (9.7ms)
+Rendered shared/_profile (3.6ms)
+Rendered shared/_footer (0.8ms)
+Completed in 190ms (View: 32 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:43:22) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+
+ActionView::TemplateError (undefined method `name' for 4b34481d0bdb8205a4000008:Mongo::ObjectID) on line #12 of app/views/subjects/_draggable_roles.html.erb:
+9: 					<% @subject.roles.each do |role|%>
+10: 						<%domid="subjectroles_" + dom_id(role)%>
+11: 						<li class="role_li" id='<%=domid%>'>
+12: 							<%=role.name%>
+13: 						</li>
+14: 						<%=draggable_element(domid, :ghosting=>true, :revert=>false)%>
+15: 					<%end%>
+
+    app/views/subjects/_draggable_roles.html.erb:12
+    app/views/subjects/_draggable_roles.html.erb:9:in `each'
+    app/views/subjects/_draggable_roles.html.erb:9
+    app/views/subjects/add_role.rjs:1:in `_run_rjs_app47views47subjects47add_role46rjs'
+    app/views/subjects/add_role.rjs:1:in `_run_rjs_app47views47subjects47add_role46rjs'
+    app/controllers/subjects_controller.rb:125:in `add_role'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (215.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:43:24) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (8.8ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 89ms (View: 28 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:43:39) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+
+ActionView::TemplateError (undefined method `name' for 4b34481d0bdb8205a4000008:Mongo::ObjectID) on line #12 of app/views/subjects/_draggable_roles.html.erb:
+9: 					<% @subject.roles.each do |role|%>
+10: 						<%domid="subjectroles_" + dom_id(role)%>
+11: 						<li class="role_li" id='<%=domid%>'>
+12: 							<%=role.name%>
+13: 						</li>
+14: 						<%=draggable_element(domid, :ghosting=>true, :revert=>false)%>
+15: 					<%end%>
+
+    app/views/subjects/_draggable_roles.html.erb:12
+    app/views/subjects/_draggable_roles.html.erb:9:in `each'
+    app/views/subjects/_draggable_roles.html.erb:9
+    app/views/subjects/add_role.rjs:1:in `_run_rjs_app47views47subjects47add_role46rjs'
+    app/views/subjects/add_role.rjs:1:in `_run_rjs_app47views47subjects47add_role46rjs'
+    app/controllers/subjects_controller.rb:125:in `add_role'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (116.5ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:44:24) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (9.1ms)
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 188ms (View: 29 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:44:27) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (9.5ms)
+Completed in 82ms (View: 15 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006/add_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:44:30) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (10.2ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.9ms)
+Completed in 186ms (View: 31 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:44:32) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (8.7ms)
+Rendered shared/_profile (3.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 95ms (View: 30 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:44:34) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (10.1ms)
+Completed in 85ms (View: 15 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006/add_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:44:35) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (9.9ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 95ms (View: 31 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2009-12-25 10:45:13) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/index
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.7ms)
+Completed in 147ms (View: 74 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources]
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-25 10:45:15) [GET]
+  Parameters: {"id"=>"4b34474c0bdb8205a4000007", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/show
+Rendered resources/_draggable_roles (83.9ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (1.5ms)
+Completed in 270ms (View: 119 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34474c0bdb8205a4000007]
+
+
+Processing ResourcesController#add_role (for 127.0.0.1 at 2009-12-25 10:45:17) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34474c0bdb8205a4000007", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering resources/add_role
+Rendered resources/_draggable_roles (10.5ms)
+Completed in 96ms (View: 25 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34474c0bdb8205a4000007/add_role]
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-25 10:45:19) [GET]
+  Parameters: {"id"=>"4b34474c0bdb8205a4000007", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/show
+Rendered resources/_draggable_roles (8.8ms)
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 90ms (View: 28 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34474c0bdb8205a4000007]
+
+
+Processing ResourcesController#add_role (for 127.0.0.1 at 2009-12-25 10:46:11) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34474c0bdb8205a4000007", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering resources/add_role
+Rendered resources/_draggable_roles (9.5ms)
+Completed in 146ms (View: 15 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34474c0bdb8205a4000007/add_role]
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-25 10:46:14) [GET]
+  Parameters: {"id"=>"4b34474c0bdb8205a4000007", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/show
+
+ActionView::TemplateError (undefined method `name' for //:Mongo::RegexpOfHolding) on line #12 of app/views/resources/_draggable_roles.html.erb:
+9: 					<% @resource.roles.each do |role|%>
+10: 						<%domid="resourceroles_" + dom_id(role)%>
+11: 						<li class="role_li" id='<%=domid%>'>
+12: 							<%=role.name%>
+13: 						</li>
+14: 						<%=draggable_element(domid, :ghosting=>true, :revert=>false)%>
+15: 					<%end%>
+
+    app/views/resources/_draggable_roles.html.erb:12
+    app/views/resources/_draggable_roles.html.erb:9:in `each'
+    app/views/resources/_draggable_roles.html.erb:9
+    app/views/resources/show.html.erb:11
+    app/controllers/resources_controller.rb:21:in `show'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (107.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2009-12-25 10:46:50) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/index
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 108ms (View: 43 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources]
+
+
+Processing ResourcesController#destroy (for 127.0.0.1 at 2009-12-25 10:46:53) [DELETE]
+  Parameters: {"authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34474c0bdb8205a4000007", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Redirected to http://localhost:3000/clients/4b343a1f0bdb8205a4000002/resources
+Completed in 97ms | 302 Found [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34474c0bdb8205a4000007]
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2009-12-25 10:46:54) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/index
+Rendered shared/_profile (3.3ms)
+Rendered shared/_footer (0.7ms)
+Completed in 76ms (View: 19 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-25 10:46:56) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.7ms)
+Completed in 108ms (View: 51 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:46:59) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (8.6ms)
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 87ms (View: 27 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:47:03) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (11.7ms)
+Completed in 96ms (View: 18 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006/add_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:47:05) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+
+ActionView::TemplateError (undefined method `name' for //ix:Mongo::RegexpOfHolding) on line #12 of app/views/subjects/_draggable_roles.html.erb:
+9: 					<% @subject.roles.each do |role|%>
+10: 						<%domid="subjectroles_" + dom_id(role)%>
+11: 						<li class="role_li" id='<%=domid%>'>
+12: 							<%=role.name%>
+13: 						</li>
+14: 						<%=draggable_element(domid, :ghosting=>true, :revert=>false)%>
+15: 					<%end%>
+
+    app/views/subjects/_draggable_roles.html.erb:12
+    app/views/subjects/_draggable_roles.html.erb:9:in `each'
+    app/views/subjects/_draggable_roles.html.erb:9
+    app/views/subjects/show.html.erb:16
+    app/controllers/subjects_controller.rb:21:in `show'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (212.6ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-25 10:47:11) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 98ms (View: 43 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#destroy (for 127.0.0.1 at 2009-12-25 10:47:14) [DELETE]
+  Parameters: {"authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Redirected to http://localhost:3000/clients/4b343a1f0bdb8205a4000002/subjects
+Completed in 64ms | 302 Found [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-25 10:47:14) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (2.9ms)
+Rendered shared/_footer (0.8ms)
+Completed in 75ms (View: 19 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#new (for 127.0.0.1 at 2009-12-25 10:47:16) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/new
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 212ms (View: 48 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/new]
+
+
+Processing SubjectsController#create (for 127.0.0.1 at 2009-12-25 10:47:21) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "subject"=>{"name"=>"qweqweqwe", "password_confirmation"=>"", "password"=>"dmitry123", "email"=>"a@firefield.com"}, "client_id"=>"4b343a1f0bdb8205a4000002"}
+Redirected to http://localhost:3000/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001
+Completed in 66ms | 302 Found [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:47:21) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (9.1ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 91ms (View: 29 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:50:00) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (9.2ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.7ms)
+Completed in 92ms (View: 28 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:50:04) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+
+ActionView::TemplateError (undefined method `name' for 4b34481d0bdb8205a4000008:Mongo::ObjectID) on line #12 of app/views/subjects/_draggable_roles.html.erb:
+9: 					<% @subject.roles.each do |role|%>
+10: 						<%domid="subjectroles_" + dom_id(role)%>
+11: 						<li class="role_li" id='<%=domid%>'>
+12: 							<%=role.name%>
+13: 						</li>
+14: 						<%=draggable_element(domid, :ghosting=>true, :revert=>false)%>
+15: 					<%end%>
+
+    app/views/subjects/_draggable_roles.html.erb:12
+    app/views/subjects/_draggable_roles.html.erb:9:in `each'
+    app/views/subjects/_draggable_roles.html.erb:9
+    app/views/subjects/add_role.rjs:1:in `_run_rjs_app47views47subjects47add_role46rjs'
+    app/views/subjects/add_role.rjs:1:in `_run_rjs_app47views47subjects47add_role46rjs'
+    app/controllers/subjects_controller.rb:125:in `add_role'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (119.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:50:06) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+
+ActionView::TemplateError (undefined method `name' for 4b34481d0bdb8205a4000008:Mongo::ObjectID) on line #12 of app/views/subjects/_draggable_roles.html.erb:
+9: 					<% @subject.roles.each do |role|%>
+10: 						<%domid="subjectroles_" + dom_id(role)%>
+11: 						<li class="role_li" id='<%=domid%>'>
+12: 							<%=role.name%>
+13: 						</li>
+14: 						<%=draggable_element(domid, :ghosting=>true, :revert=>false)%>
+15: 					<%end%>
+
+    app/views/subjects/_draggable_roles.html.erb:12
+    app/views/subjects/_draggable_roles.html.erb:9:in `each'
+    app/views/subjects/_draggable_roles.html.erb:9
+    app/views/subjects/show.html.erb:16
+    app/controllers/subjects_controller.rb:21:in `show'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (104.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:55:56) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (13.5ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 221ms (View: 40 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 10:55:59) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (12.6ms)
+Completed in 120ms (View: 18 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/add_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:56:46) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (14.1ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.7ms)
+Completed in 219ms (View: 41 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 10:56:48) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (11.1ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (1.9ms)
+Completed in 93ms (View: 31 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 11:06:39) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (40.5ms)
+Completed in 168ms (View: 49 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/add_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:06:41) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (31.3ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (4.8ms)
+Completed in 145ms (View: 57 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 11:06:46) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (40.4ms)
+Completed in 163ms (View: 51 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/add_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:06:47) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (23.2ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (1.7ms)
+Completed in 162ms (View: 51 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#remove_role (for 127.0.0.1 at 2009-12-25 11:06:50) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Completed in 111ms (View: 2 | 422 Unprocessable Entity [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/remove_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:06:51) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (21.9ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 190ms (View: 53 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:06:53) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (37.9ms)
+Rendered shared/_profile (4.4ms)
+Rendered shared/_footer (0.9ms)
+Completed in 180ms (View: 71 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:38:34) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (19.2ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 245ms (View: 38 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#remove_role (for 127.0.0.1 at 2009-12-25 11:38:39) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Completed in 76ms (View: 2 | 422 Unprocessable Entity [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/remove_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:39:24) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (18.8ms)
+Rendered shared/_profile (2.6ms)
+Rendered shared/_footer (0.7ms)
+Completed in 245ms (View: 39 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:39:26) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (19.5ms)
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.7ms)
+Completed in 104ms (View: 39 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:41:19) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (19.2ms)
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 100ms (View: 39 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#remove_role (for 127.0.0.1 at 2009-12-25 11:41:22) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/remove_role
+Rendered subjects/_draggable_roles (14.3ms)
+Completed in 273ms (View: 47 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/remove_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:41:31) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (19.9ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 101ms (View: 40 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#remove_role (for 127.0.0.1 at 2009-12-25 11:41:37) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/remove_role
+Rendered subjects/_draggable_roles (11.7ms)
+Completed in 87ms (View: 17 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/remove_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:41:57) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (18.7ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 102ms (View: 38 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#remove_role (for 127.0.0.1 at 2009-12-25 11:42:00) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/remove_role
+Rendered subjects/_draggable_roles (11.8ms)
+Completed in 95ms (View: 18 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/remove_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:42:01) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (11.3ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 95ms (View: 31 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 11:42:11) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (19.4ms)
+Completed in 103ms (View: 25 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/add_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:42:13) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (18.8ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 102ms (View: 39 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#remove_role (for 127.0.0.1 at 2009-12-25 11:42:15) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/remove_role
+Rendered subjects/_draggable_roles (11.6ms)
+Completed in 92ms (View: 17 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/remove_role]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 11:42:17) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (22.4ms)
+Completed in 106ms (View: 28 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/add_role]
+
+
+Processing SubjectsController#remove_role (for 127.0.0.1 at 2009-12-25 11:42:19) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/remove_role
+Rendered subjects/_draggable_roles (11.1ms)
+Completed in 255ms (View: 16 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/remove_role]
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2009-12-25 11:42:21) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/index
+Rendered shared/_profile (3.0ms)
+Rendered shared/_footer (0.9ms)
+Completed in 81ms (View: 21 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources]
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2009-12-25 11:42:40) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/index
+Rendered shared/_profile (2.9ms)
+Rendered shared/_footer (0.7ms)
+Completed in 81ms (View: 20 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources]
+
+
+Processing ResourcesController#new (for 127.0.0.1 at 2009-12-25 11:42:41) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/new
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 90ms (View: 32 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/new]
+
+
+Processing ResourcesController#create (for 127.0.0.1 at 2009-12-25 11:42:43) [POST]
+  Parameters: {"commit"=>"Create", "resource"=>{"name"=>"aasd"}, "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Redirected to http://localhost:3000/clients/4b343a1f0bdb8205a4000002/resources/4b34eb830bdb82087a000002
+Completed in 67ms | 302 Found [http://localhost/clients/4b343a1f0bdb8205a4000002/resources]
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-25 11:42:43) [GET]
+  Parameters: {"id"=>"4b34eb830bdb82087a000002", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/show
+Rendered resources/_draggable_roles (9.4ms)
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 271ms (View: 30 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34eb830bdb82087a000002]
+
+
+Processing ResourcesController#add_role (for 127.0.0.1 at 2009-12-25 11:42:46) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34eb830bdb82087a000002", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering resources/add_role
+
+ActionView::TemplateError (undefined method `name' for 4b34481d0bdb8205a4000008:Mongo::ObjectID) on line #12 of app/views/resources/_draggable_roles.html.erb:
+9: 					<% @resource.roles.each do |role|%>
+10: 						<%domid="resourceroles_" + dom_id(role)%>
+11: 						<li class="role_li" id='<%=domid%>'>
+12: 							<%=role.name%>
+13: 						</li>
+14: 						<%=draggable_element(domid, :ghosting=>true, :revert=>false)%>
+15: 					<%end%>
+
+    app/views/resources/_draggable_roles.html.erb:12
+    app/views/resources/_draggable_roles.html.erb:9:in `each'
+    app/views/resources/_draggable_roles.html.erb:9
+    app/views/resources/add_role.rjs:1:in `_run_rjs_app47views47resources47add_role46rjs'
+    app/views/resources/add_role.rjs:1:in `_run_rjs_app47views47resources47add_role46rjs'
+    app/controllers/resources_controller.rb:95:in `add_role'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (280.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-25 11:42:48) [GET]
+  Parameters: {"id"=>"4b34eb830bdb82087a000002", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/show
+
+ActionView::TemplateError (undefined method `name' for 4b34481d0bdb8205a4000008:Mongo::ObjectID) on line #12 of app/views/resources/_draggable_roles.html.erb:
+9: 					<% @resource.roles.each do |role|%>
+10: 						<%domid="resourceroles_" + dom_id(role)%>
+11: 						<li class="role_li" id='<%=domid%>'>
+12: 							<%=role.name%>
+13: 						</li>
+14: 						<%=draggable_element(domid, :ghosting=>true, :revert=>false)%>
+15: 					<%end%>
+
+    app/views/resources/_draggable_roles.html.erb:12
+    app/views/resources/_draggable_roles.html.erb:9:in `each'
+    app/views/resources/_draggable_roles.html.erb:9
+    app/views/resources/show.html.erb:11
+    app/controllers/resources_controller.rb:21:in `show'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (301.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-25 11:45:33) [GET]
+  Parameters: {"id"=>"4b34eb830bdb82087a000002", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/show
+Rendered resources/_draggable_roles (21.6ms)
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 110ms (View: 48 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34eb830bdb82087a000002]
+
+
+Processing ResourcesController#remove_role (for 127.0.0.1 at 2009-12-25 11:45:36) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34eb830bdb82087a000002", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering resources/remove_role
+Rendered resources/_draggable_roles (11.3ms)
+Completed in 282ms (View: 24 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34eb830bdb82087a000002/remove_role]
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-25 11:45:37) [GET]
+  Parameters: {"id"=>"4b34eb830bdb82087a000002", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/show
+Rendered resources/_draggable_roles (11.9ms)
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 95ms (View: 34 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34eb830bdb82087a000002]
+
+
+Processing ResourcesController#add_role (for 127.0.0.1 at 2009-12-25 11:45:39) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34eb830bdb82087a000002", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering resources/add_role
+Rendered resources/_draggable_roles (19.0ms)
+Completed in 99ms (View: 24 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34eb830bdb82087a000002/add_role]
+
+
+Processing ResourcesController#remove_role (for 127.0.0.1 at 2009-12-25 11:45:41) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34eb830bdb82087a000002", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering resources/remove_role
+Rendered resources/_draggable_roles (11.6ms)
+Completed in 89ms (View: 16 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34eb830bdb82087a000002/remove_role]
+
+
+Processing ResourcesController#add_role (for 127.0.0.1 at 2009-12-25 11:45:43) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34eb830bdb82087a000002", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering resources/add_role
+Rendered resources/_draggable_roles (20.8ms)
+Completed in 286ms (View: 26 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34eb830bdb82087a000002/add_role]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-25 11:45:45) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.7ms)
+Completed in 162ms (View: 105 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 11:45:46) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered roles/_draggable_subjects (19.9ms)
+Rendered roles/_draggable_resources (17.6ms)
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (1.1ms)
+Completed in 326ms (View: 262 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing RolesController#add_resource (for 127.0.0.1 at 2009-12-25 11:45:49) [PUT]
+  Parameters: {"resource_id"=>"4b34eb830bdb82087a000002", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering roles/add_resource
+Rendered roles/_draggable_resources (14.0ms)
+Completed in 101ms (View: 30 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008/add_resource]
+
+
+Processing RolesController#add_subject (for 127.0.0.1 at 2009-12-25 11:45:51) [PUT]
+  Parameters: {"authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34481d0bdb8205a4000008", "subject_id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering roles/add_subject
+Rendered roles/_draggable_subjects (14.7ms)
+Completed in 284ms (View: 214 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008/add_subject]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 11:45:52) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered roles/_draggable_subjects (12.3ms)
+Rendered roles/_draggable_resources (11.4ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.7ms)
+Completed in 111ms (View: 44 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2009-12-25 11:45:57) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/index
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 276ms (View: 41 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources]
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-25 11:45:58) [GET]
+  Parameters: {"id"=>"4b34eb830bdb82087a000002", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/show
+Rendered resources/_draggable_roles (19.6ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 107ms (View: 43 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34eb830bdb82087a000002]
+
+
+Processing ResourcesController#remove_role (for 127.0.0.1 at 2009-12-25 11:46:01) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34eb830bdb82087a000002", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering resources/remove_role
+Rendered resources/_draggable_roles (12.7ms)
+Completed in 91ms (View: 17 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34eb830bdb82087a000002/remove_role]
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2009-12-25 11:46:03) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/index
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.9ms)
+Completed in 285ms (View: 44 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-25 11:46:04) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 97ms (View: 40 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 11:46:06) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered roles/_draggable_subjects (11.7ms)
+Rendered roles/_draggable_resources (11.4ms)
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 289ms (View: 225 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing RolesController#remove_resource (for 127.0.0.1 at 2009-12-25 11:46:09) [PUT]
+  Parameters: {"resource_id"=>"4b34eb830bdb82087a000002", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Completed in 72ms (View: 1 | 422 Unprocessable Entity [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008/remove_resource]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 11:46:11) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered roles/_draggable_subjects (14.8ms)
+Rendered roles/_draggable_resources (11.5ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 111ms (View: 47 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing RolesController#remove_subject (for 127.0.0.1 at 2009-12-25 11:46:12) [PUT]
+  Parameters: {"authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34481d0bdb8205a4000008", "subject_id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Completed in 75ms (View: 1 | 422 Unprocessable Entity [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008/remove_subject]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-25 11:46:19) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 102ms (View: 42 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:46:20) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (15.9ms)
+Rendered shared/_profile (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 277ms (View: 36 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 11:46:22) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (19.6ms)
+Completed in 103ms (View: 25 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/add_role]

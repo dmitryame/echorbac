@@ -12,6 +12,10 @@ class Subject
   
   key :roles, Array, :index => true  
 
+#TODO: remove once mongo mapper start to support it
+  def subjects_roles
+    Role.all(:id => roles)
+  end
 
 
 end

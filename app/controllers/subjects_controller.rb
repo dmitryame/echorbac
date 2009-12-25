@@ -123,7 +123,8 @@ class SubjectsController < ApplicationController
     @subject = @client.subjects.find(params[:id])
     @role = @client.roles.find(params[:role_id])
     respond_to do |format|
-      if @role.subjects << @subject
+      if @subject.roles << @role.id
+        @subject.save
         format.xml { head :ok }
         format.js
       else
@@ -136,7 +137,8 @@ class SubjectsController < ApplicationController
     @subject = @client.subjects.find(params[:id])  
     @role = @client.roles.find(params[:role_id])
     respond_to do |format|
-      if @role.subjects.find(@subject) and @role.subjects.delete(@subject)
+      if @subject.roles.delete(@role.id)
+        @subject.save
         format.xml  { head :ok }
         format.js
       else

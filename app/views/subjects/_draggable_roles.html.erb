@@ -6,7 +6,7 @@
 			<h3>subject's roles</h3>
 			<div id="subjects_roles">
 				<ul id="subjects_roles_list">
-					<% @subject.roles.each do |role|%>
+					<% @subject.subjects_roles.each do |role|%>
 						<%domid="subjectroles_" + dom_id(role)%>
 						<li class="role_li" id='<%=domid%>'>
 							<%=role.name%>
@@ -21,7 +21,7 @@
 			<h3>all roles</h3>
 			<div id="clients_roles">
 				<ul id="clients_roles_list">
-					<% (@client.roles - @subject.roles).each do |role|%>
+					<% (@client.roles - @subject.subjects_roles).each do |role|%>
 						<%domid="clientsrole_" + dom_id(role)%>
 						<li class="role_li" id='<%=domid%>'>
 							<%=role.name%>

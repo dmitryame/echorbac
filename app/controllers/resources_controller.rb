@@ -93,7 +93,8 @@ class ResourcesController < ApplicationController
     @resource = @client.resources.find(params[:id])
     @role = @client.roles.find(params[:role_id])
     respond_to do |format|
-      if @role.resources << @resource
+      if @resource.roles << @role.id
+        @resource.save
         format.xml { head :ok }
         format.js
       else
@@ -106,7 +107,8 @@ class ResourcesController < ApplicationController
     @resource = @client.resources.find(params[:id])  
     @role = @client.roles.find(params[:role_id])
     respond_to do |format|
-      if @role.resources.find(@resource) and @role.resources.delete(@resource)
+      if @resource.roles.delete(@role.id)
+        @resource.save
         format.xml  { head :ok }
         format.js
       else
