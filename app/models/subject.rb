@@ -1,5 +1,8 @@
 class Subject
   include MongoMapper::Document
-  timestamps!  
+  timestamps!
+  key :roles, Array, :index => true  
+
+  key :name, String, :index => true
   
 end
