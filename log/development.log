@@ -796,3 +796,351 @@ NameError (uninitialized constant SubjectsController):
 Rendered rescues/_trace (48.6ms)
 Rendered rescues/_request_and_response (0.5ms)
 Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-24 23:38:41) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+
+NoMethodError (undefined method `subjects' for #<Client:0x103f73628>):
+  /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/dirty.rb:25:in `method_missing'
+  app/controllers/subjects_controller.rb:8:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (137.3ms)
+Rendered rescues/_request_and_response (23.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-24 23:43:18) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+
+ActionView::MissingTemplate (Missing template subjects/index.erb in view path app/views):
+  app/controllers/subjects_controller.rb:10:in `index'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-24 23:45:10) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (3.5ms)
+Rendered shared/_footer (0.9ms)
+Completed in 504ms (View: 449 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#new (for 127.0.0.1 at 2009-12-24 23:45:15) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/new
+
+ActionView::TemplateError (undefined method `email' for #<Subject:0x1043bf420>) on line #12 of app/views/subjects/new.html.erb:
+9:   </p>
+10:   <p>
+11:     <%= f.label :email %><br />
+12:     <%= f.text_field :email %>
+13:   </p>
+14:   <p>
+15:     <%= f.label :password %><br />
+
+    /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/dirty.rb:25:in `method_missing'
+    app/views/subjects/new.html.erb:12
+    app/views/subjects/new.html.erb:3
+    app/controllers/subjects_controller.rb:32:in `new'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (119.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#new (for 127.0.0.1 at 2009-12-24 23:45:57) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/new
+
+ActionView::TemplateError (undefined method `password' for #<Subject:0x1044ea548>) on line #16 of app/views/subjects/new.html.erb:
+13:   </p>
+14:   <p>
+15:     <%= f.label :password %><br />
+16:     <%= f.password_field :password %>
+17:   </p>
+18:   <p>
+19:     <%= f.label :password_confirmation %><br />
+
+    /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/dirty.rb:25:in `method_missing'
+    app/views/subjects/new.html.erb:16
+    app/views/subjects/new.html.erb:3
+    app/controllers/subjects_controller.rb:32:in `new'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (162.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#new (for 127.0.0.1 at 2009-12-24 23:46:13) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/new
+
+ActionView::TemplateError (undefined method `password_confirmation' for #<Subject:0x103f89ef0>) on line #20 of app/views/subjects/new.html.erb:
+17:   </p>
+18:   <p>
+19:     <%= f.label :password_confirmation %><br />
+20:     <%= f.password_field :password_confirmation %>
+21:   </p>
+22:   <p>
+23:     <%= f.submit "Create" %>
+
+    /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/dirty.rb:25:in `method_missing'
+    app/views/subjects/new.html.erb:20
+    app/views/subjects/new.html.erb:3
+    app/controllers/subjects_controller.rb:32:in `new'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (284.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#new (for 127.0.0.1 at 2009-12-24 23:46:29) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/new
+Rendered shared/_profile (2.6ms)
+Rendered shared/_footer (0.8ms)
+Completed in 75ms (View: 32 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/new]
+
+
+Processing SubjectsController#create (for 127.0.0.1 at 2009-12-24 23:46:36) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "subject"=>{"name"=>"qweqwe", "password_confirmation"=>"", "password"=>"dmitry123", "email"=>"a@firefield.com"}, "client_id"=>"4b343a1f0bdb8205a4000002"}
+Redirected to http://localhost:3000/clients/4b343a1f0bdb8205a4000002/subjects/4b3443ad0bdb8205a4000005
+Completed in 186ms | 302 Found [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-24 23:46:37) [GET]
+  Parameters: {"id"=>"4b3443ad0bdb8205a4000005", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+
+ActionView::TemplateError (undefined method `roles' for #<Client:0x104390f80>) on line #24 of app/views/subjects/_draggable_roles.html.erb:
+21: 			<h3>all roles</h3>
+22: 			<div id="clients_roles">
+23: 				<ul id="clients_roles_list">
+24: 					<% (@client.roles - @subject.roles).each do |role|%>
+25: 						<%domid="clientsrole_" + dom_id(role)%>
+26: 						<li class="role_li" id='<%=domid%>'>
+27: 							<%=role.name%>
+
+    /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/dirty.rb:25:in `method_missing'
+    app/views/subjects/_draggable_roles.html.erb:24
+    app/views/subjects/show.html.erb:16
+    app/controllers/subjects_controller.rb:21:in `show'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (161.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-24 23:46:54) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (3.7ms)
+Rendered shared/_footer (1.1ms)
+Completed in 247ms (View: 58 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-24 23:47:01) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (3.1ms)
+Rendered shared/_footer (0.9ms)
+Completed in 101ms (View: 49 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-24 23:47:06) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (7.3ms)
+Rendered shared/_footer (0.9ms)
+Completed in 110ms (View: 58 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-24 23:47:12) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (3.3ms)
+Rendered shared/_footer (1.0ms)
+Completed in 99ms (View: 51 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-24 23:47:16) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (8.4ms)
+Rendered shared/_footer (1.6ms)
+Completed in 239ms (View: 62 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-24 23:50:39) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (3.0ms)
+Rendered shared/_footer (5.4ms)
+Completed in 106ms (View: 62 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-24 23:50:46) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+
+NameError (uninitialized constant RolesController):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (61.9ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#destroy (for 127.0.0.1 at 2009-12-24 23:50:52) [DELETE]
+  Parameters: {"authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3443ad0bdb8205a4000005", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Redirected to http://localhost:3000/clients/4b343a1f0bdb8205a4000002/subjects
+Completed in 69ms | 302 Found [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3443ad0bdb8205a4000005]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-24 23:50:52) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (3.8ms)
+Rendered shared/_footer (2.1ms)
+Completed in 89ms (View: 33 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#new (for 127.0.0.1 at 2009-12-24 23:50:55) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/new
+Rendered shared/_profile (3.1ms)
+Rendered shared/_footer (1.0ms)
+Completed in 92ms (View: 41 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/new]
+
+
+Processing SubjectsController#create (for 127.0.0.1 at 2009-12-24 23:51:00) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "subject"=>{"name"=>"3234234", "password_confirmation"=>"", "password"=>"dmitry123", "email"=>"a@firefield.com"}, "client_id"=>"4b343a1f0bdb8205a4000002"}
+Redirected to http://localhost:3000/clients/4b343a1f0bdb8205a4000002/subjects/4b3444b40bdb8205a4000006
+Completed in 58ms | 302 Found [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-24 23:51:00) [GET]
+  Parameters: {"id"=>"4b3444b40bdb8205a4000006", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+
+ActionView::TemplateError (undefined method `roles' for #<Client:0x1043982a8>) on line #24 of app/views/subjects/_draggable_roles.html.erb:
+21: 			<h3>all roles</h3>
+22: 			<div id="clients_roles">
+23: 				<ul id="clients_roles_list">
+24: 					<% (@client.roles - @subject.roles).each do |role|%>
+25: 						<%domid="clientsrole_" + dom_id(role)%>
+26: 						<li class="role_li" id='<%=domid%>'>
+27: 							<%=role.name%>
+
+    /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/dirty.rb:25:in `method_missing'
+    app/views/subjects/_draggable_roles.html.erb:24
+    app/views/subjects/show.html.erb:16
+    app/controllers/subjects_controller.rb:21:in `show'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (194.0ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-24 23:51:10) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (2.9ms)
+Rendered shared/_footer (0.9ms)
+Completed in 101ms (View: 54 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
