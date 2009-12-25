@@ -2,7 +2,7 @@ class ClientsController < ApplicationController
   # GET /clients
   # GET /clients.xml
   def index    
-    @clients = logeed_in_subject.managed_clients
+    @clients = Client.all#logeed_in_subject.managed_clients
 
     respond_to do |format|
       format.html # index.html.erb
