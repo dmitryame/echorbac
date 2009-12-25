@@ -8,18 +8,12 @@ ActionController::Routing::Routes.draw do |map|
       :add_role => :put,
       :remove_role => :put      
     }     
-    client.resources :roles,
-    :member => {
-      :add_subject => :put,
-      :remove_subject => :put,
-      :add_resource => :put,
-      :remove_resource => :put
-    }
     client.resources :resources,
     :member => {
       :add_role => :put,
       :remove_role => :put      
     }     
+    client.resources :roles
     
   end
 

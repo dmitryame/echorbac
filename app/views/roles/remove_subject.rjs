@@ -1,2 +1,0 @@
-page[:draggable_subjects].reload 
-page[:roles_subjects].visual_effect :highlight,:startcolor => "#ffffff", :endcolor => "#af0000"

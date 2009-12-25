@@ -3115,3 +3115,372 @@ Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 11:46:22) [P
 Rendering subjects/add_role
 Rendered subjects/_draggable_roles (19.6ms)
 Completed in 103ms (View: 25 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/add_role]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:50:20) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (18.8ms)
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 101ms (View: 38 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 11:50:40) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (19.1ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 102ms (View: 39 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#remove_role (for 127.0.0.1 at 2009-12-25 12:02:26) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/remove_role
+Rendered subjects/_draggable_roles (11.5ms)
+Completed in 287ms (View: 16 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/remove_role]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 12:02:28) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (19.6ms)
+Completed in 105ms (View: 26 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/add_role]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 12:02:30) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (22.0ms)
+Completed in 297ms (View: 219 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/add_role]
+
+
+Processing SubjectsController#remove_role (for 127.0.0.1 at 2009-12-25 12:02:33) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/remove_role
+Rendered subjects/_draggable_roles (12.3ms)
+Completed in 95ms (View: 17 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/remove_role]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 12:02:34) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (19.5ms)
+Completed in 103ms (View: 25 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/add_role]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-25 12:02:37) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 288ms (View: 40 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 12:02:39) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered roles/_draggable_subjects (12.3ms)
+Rendered roles/_draggable_resources (12.0ms)
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (1.0ms)
+Completed in 113ms (View: 48 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing RolesController#add_subject (for 127.0.0.1 at 2009-12-25 12:02:43) [PUT]
+  Parameters: {"authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34481d0bdb8205a4000008", "subject_id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering roles/add_subject
+Rendered roles/_draggable_subjects (203.0ms)
+Completed in 280ms (View: 208 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008/add_subject]
+
+
+Processing RolesController#add_resource (for 127.0.0.1 at 2009-12-25 12:02:46) [PUT]
+  Parameters: {"resource_id"=>"4b34eb830bdb82087a000002", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering roles/add_resource
+Rendered roles/_draggable_resources (11.6ms)
+Completed in 92ms (View: 18 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008/add_resource]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-25 12:02:50) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 101ms (View: 39 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 12:02:51) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (20.6ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 315ms (View: 40 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-25 12:02:55) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 99ms (View: 40 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 12:02:56) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered roles/_draggable_subjects (15.3ms)
+Rendered roles/_draggable_resources (12.3ms)
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 113ms (View: 48 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing RolesController#add_subject (for 127.0.0.1 at 2009-12-25 12:03:01) [PUT]
+  Parameters: {"authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34481d0bdb8205a4000008", "subject_id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering roles/add_subject
+Rendered roles/_draggable_subjects (15.1ms)
+Completed in 95ms (View: 20 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008/add_subject]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 12:03:03) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered roles/_draggable_subjects (12.1ms)
+Rendered roles/_draggable_resources (11.9ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 109ms (View: 44 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 12:03:05) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered roles/_draggable_subjects (13.0ms)
+Rendered roles/_draggable_resources (11.3ms)
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 117ms (View: 45 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing RolesController#add_subject (for 127.0.0.1 at 2009-12-25 12:03:07) [PUT]
+  Parameters: {"authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34481d0bdb8205a4000008", "subject_id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering roles/add_subject
+Rendered roles/_draggable_subjects (12.7ms)
+Completed in 294ms (View: 19 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008/add_subject]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 12:03:08) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered roles/_draggable_subjects (13.5ms)
+Rendered roles/_draggable_resources (11.8ms)
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 113ms (View: 46 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing RolesController#add_resource (for 127.0.0.1 at 2009-12-25 12:03:10) [PUT]
+  Parameters: {"resource_id"=>"4b34eb830bdb82087a000002", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering roles/add_resource
+Rendered roles/_draggable_resources (11.5ms)
+Completed in 308ms (View: 21 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008/add_resource]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 12:03:12) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered roles/_draggable_subjects (12.2ms)
+Rendered roles/_draggable_resources (11.6ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.7ms)
+Completed in 108ms (View: 44 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 12:03:13) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered roles/_draggable_subjects (13.3ms)
+Rendered roles/_draggable_resources (11.8ms)
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 350ms (View: 50 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-25 12:03:15) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.7ms)
+Completed in 101ms (View: 42 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-25 12:03:16) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_profile (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 337ms (View: 43 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 12:03:17) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered roles/_draggable_subjects (12.0ms)
+Rendered roles/_draggable_resources (12.5ms)
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.9ms)
+Completed in 115ms (View: 47 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing RolesController#remove_subject (for 127.0.0.1 at 2009-12-25 12:03:20) [PUT]
+  Parameters: {"authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34481d0bdb8205a4000008", "subject_id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Completed in 79ms (View: 3 | 422 Unprocessable Entity [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008/remove_subject]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 12:19:54) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered shared/_profile (5.0ms)
+Rendered shared/_footer (2.6ms)
+Completed in 415ms (View: 208 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-25 12:19:58) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 106ms (View: 47 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 12:19:59) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered shared/_profile (3.1ms)
+Rendered shared/_footer (0.8ms)
+Completed in 177ms (View: 19 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-25 12:20:10) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 99ms (View: 42 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-25 12:20:17) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 227ms (View: 171 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-25 12:20:19) [GET]
+  Parameters: {"id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (26.4ms)
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.9ms)
+Completed in 124ms (View: 61 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001]
+
+
+Processing SubjectsController#remove_role (for 127.0.0.1 at 2009-12-25 12:20:31) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/remove_role
+Rendered subjects/_draggable_roles (11.3ms)
+Completed in 376ms (View: 39 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/remove_role]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-25 12:20:34) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34de890bdb82087a000001", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (19.1ms)
+Completed in 107ms (View: 32 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b34de890bdb82087a000001/add_role]
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2009-12-25 12:20:35) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/index
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.9ms)
+Completed in 291ms (View: 232 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources]
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-25 12:20:36) [GET]
+  Parameters: {"id"=>"4b34eb830bdb82087a000002", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/resources
+Rendering resources/show
+Rendered resources/_draggable_roles (18.2ms)
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (1.1ms)
+Completed in 117ms (View: 55 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34eb830bdb82087a000002]
+
+
+Processing ResourcesController#add_role (for 127.0.0.1 at 2009-12-25 12:20:38) [PUT]
+  Parameters: {"role_id"=>"4b34481d0bdb8205a4000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b34eb830bdb82087a000002", "client_id"=>"4b343a1f0bdb8205a4000002", "_"=>""}
+Rendering resources/add_role
+Rendered resources/_draggable_roles (18.8ms)
+Completed in 106ms (View: 32 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/resources/4b34eb830bdb82087a000002/add_role]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-25 12:20:40) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.7ms)
+Completed in 192ms (View: 39 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-25 12:20:43) [GET]
+  Parameters: {"id"=>"4b34481d0bdb8205a4000008", "client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered shared/_profile (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 92ms (View: 19 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles/4b34481d0bdb8205a4000008]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-25 12:21:00) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.9ms)
+Completed in 220ms (View: 158 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-25 12:21:01) [GET]
+  Parameters: {"client_id"=>"4b343a1f0bdb8205a4000002"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 96ms (View: 39 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/roles]

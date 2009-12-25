@@ -86,59 +86,6 @@ class RolesController < ApplicationController
     end
   end
 
-  # custom restful methods 
-  def add_subject
-    @role = @client.roles.find(params[:id])
-    @subject = @client.subjects.find(params[:subject_id])
-    respond_to do |format|
-      if @subject.roles << @role
-        format.xml  { head :ok }
-        format.js
-      else
-        format.xml  { render :xml => @subject.errors, :status => :unprocessable_entity }
-      end
-    end
-  end
-
-  def remove_subject
-    @role = @client.roles.find(params[:id])  
-    @subject = @client.subjects.find(params[:subject_id])
-    respond_to do |format|
-      if @subject.roles.find(@role) and @subject.roles.delete(@role)
-        format.xml  { head :ok }
-        format.js
-      else
-        format.xml  { render :xml => @subject.errors, :status => :unprocessable_entity }
-      end        
-    end
-  end
-
-  def add_resource
-    @role = @client.roles.find(params[:id])
-    @resource = @client.resources.find(params[:resource_id])
-    respond_to do |format|
-      if @resource.roles << @role
-        format.xml { head :ok }
-        format.js
-      else
-        format.xml  { render :xml => @resource.errors, :status => :unprocessable_entity }
-      end
-    end
-  end
-
-  def remove_resource
-    @role = @client.roles.find(params[:id])  
-    @resource = @client.resources.find(params[:resource_id])
-    respond_to do |format|
-      if @resource.roles.find(@role) and @resource.roles.delete(@role)
-        format.xml  { head :ok }
-        format.js
-      else
-        format.xml  { render :xml => @resource.errors, :status => :unprocessable_entity }
-      end        
-    end
-  end
-
 
 private
 
