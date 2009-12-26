@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.devise_for :subjects
+  
   map.resources :clients, :member => {:subject_id_from_name => :get, :role_id_from_name => :get}#TODO: write functional test    
   map.resources :clients do |client|
     client.resources :subjects,

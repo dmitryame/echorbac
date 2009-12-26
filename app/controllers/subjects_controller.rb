@@ -1,4 +1,6 @@
 class SubjectsController < ApplicationController
+  before_filter :authenticate_subject!, :only => [:edit, :update, :destroy]
+
   before_filter :find_client, :except => :login
 
 
@@ -46,8 +48,14 @@ class SubjectsController < ApplicationController
     @subject = Subject.new(params[:subject])
 
     respond_to do |format|
-      if @client.subjects << @subject
-        flash[:notice] = 'Subject was successfully created.'
+      if @client.subjects << @subject && @client.save && @subject.save
+        if @subject.respond_to?(:confirm!)
+          flash[:success] = t('devise.confirmations.send_instructions')
+          sign_in @subject if @subject.class.confirm_within > 0
+        else
+          flash[:success] = t('flash.users.create.notice', :default => 'User was successfully created.')
+        end
+        
         format.html { redirect_to client_subject_url(@client, @subject) }
         format.xml  { render :xml => @subject, :status => :created, :location => [@client, @subject] }
       else
