@@ -1,5 +1,5 @@
 class ClientsController < ApplicationController
-  # GET /clients
+s  # GET /clients
   # GET /clients.xml
   def index    
     @clients = Client.all#logeed_in_subject.managed_clients

@@ -1,5 +1,4 @@
 class SubjectsController < ApplicationController
-  before_filter :authenticate_subject!, :only => [:edit, :update, :destroy]
 
   before_filter :find_client, :except => :login
 

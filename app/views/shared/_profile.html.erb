@@ -1,16 +1,19 @@
 <div id="profile_box">
-	<%unless session[:subject_name].blank? %>	
 	<div id="subject_name">
-		login:&nbsp;<%=link_to session[:subject_name], clients_url%>
+		<%if subject_signed_in?%>		
+			<%=link_to 'logout',  destroy_subject_session_path %>:&nbsp;<%=link_to  current_subject.name, clients_url%>
+		<%else%>
+			<%=link_to 'login', new_subject_session_path %>				
+		<%end%>
 	</div>
 
-	<%unless @client.blank? %>
-		<div id="edit_profile">client:&nbsp;<%= link_to @client.name, edit_profile_path(Profile.find_by_client_id_and_subject_id(@client, session[:subject_id])) %></div>
-	<%end%>
 
-	<%else%>
-		<%=link_to 'login', '/login' %>	
-	<%end%>
+
+	<div id="edit_profile">
+		<%unless @client.blank? %>			
+		client:&nbsp;<%#= link_to @client.name, edit_profile_path(Profile.find_by_client_id_and_subject_id(@client, current_subject) %>
+		<%end%>			
+	</div>
 	<div id="help_menu_box">
 		<%=link_to "home", home_url%>|<%=link_to "faq", faq_url%>|<%=link_to "help", help_url%>|<%=link_to "terms", terms_url%>
 	</div>	

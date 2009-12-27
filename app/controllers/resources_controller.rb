@@ -1,7 +1,6 @@
 class ResourcesController < ApplicationController
   before_filter :find_client
 
-
   # GET /resources
   # GET /resources.xml
   def index

@@ -5228,3 +5228,1140 @@ Rendering home/index
 Rendered shared/_profile (3.2ms)
 Rendered shared/_footer (0.8ms)
 Completed in 173ms (View: 166 | 200 OK [http://localhost/]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-26 00:08:03) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_profile (4.5ms)
+Rendered shared/_footer (2.6ms)
+Completed in 347ms (View: 113 | 200 OK [http://localhost/clients]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-26 00:08:05) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b343a1f0bdb8205a4000002", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/show
+Rendered shared/_profile (5.4ms)
+Rendered shared/_footer (0.9ms)
+Completed in 238ms (View: 167 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-26 00:08:07) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b343a1f0bdb8205a4000002", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.7ms)
+Completed in 161ms (View: 92 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-26 00:08:11) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3597c10bdb820d01000001", "client_id"=>"4b343a1f0bdb8205a4000002", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (18.0ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 225ms (View: 149 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3597c10bdb820d01000001]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-26 00:08:15) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3598430bdb820d14000001", "client_id"=>"4b343a1f0bdb8205a4000002", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (12.1ms)
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 105ms (View: 32 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3598430bdb820d14000001]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-26 00:08:33) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 125ms (View: 51 | 200 OK [http://localhost/clients/]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-26 00:08:38) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b343a1f0bdb8205a4000002", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/show
+Rendered shared/_profile (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 84ms (View: 17 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002]
+
+
+Processing ClientsController#edit (for 127.0.0.1 at 2009-12-26 00:08:41) [GET]
+  Parameters: {"action"=>"edit", "id"=>"4b343a1f0bdb8205a4000002", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/edit
+Rendered shared/_profile (3.1ms)
+Rendered shared/_footer (0.8ms)
+Completed in 482ms (View: 324 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/edit]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-26 00:08:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_profile (11.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 146ms (View: 66 | 200 OK [http://localhost/clients]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-26 00:08:53) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b343a1f0bdb8205a4000002", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (2.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 131ms (View: 62 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-26 00:08:56) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3597c10bdb820d01000001", "client_id"=>"4b343a1f0bdb8205a4000002", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (11.5ms)
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.7ms)
+Completed in 203ms (View: 30 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3597c10bdb820d01000001]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-26 00:08:59) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b343a1f0bdb8205a4000002", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.9ms)
+Completed in 223ms (View: 155 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-26 00:09:01) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3598430bdb820d14000001", "client_id"=>"4b343a1f0bdb8205a4000002", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (11.6ms)
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.7ms)
+Completed in 108ms (View: 31 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/subjects/4b3598430bdb820d14000001]
+
+
+Processing SubjectsController#edit (for 127.0.0.1 at 2009-12-26 00:09:03) [GET]
+  Parameters: {"action"=>"edit", "id"=>"4b3598430bdb820d14000001", "client_id"=>"4b343a1f0bdb8205a4000002", "controller"=>"subjects"}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-26 00:09:03) [GET]
+  Parameters: {"unauthenticated"=>"true", "action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 72ms (View: 39 | 200 OK [http://localhost/subjects/sign_in?unauthenticated=true]
+
+
+Processing SubjectsController#edit (for 127.0.0.1 at 2009-12-26 00:09:35) [GET]
+  Parameters: {"action"=>"edit", "id"=>"4b3597c10bdb820d01000001", "client_id"=>"4b343a1f0bdb8205a4000002", "controller"=>"subjects"}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-26 00:09:35) [GET]
+  Parameters: {"unauthenticated"=>"true", "action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_profile (2.9ms)
+Rendered shared/_footer (0.8ms)
+Completed in 69ms (View: 28 | 200 OK [http://localhost/subjects/sign_in?unauthenticated=true]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 10:32:03) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_profile (5.1ms)
+Rendered shared/_footer (2.6ms)
+Completed in 216ms (View: 206 | 200 OK [http://localhost/]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-26 10:32:09) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.7ms)
+Completed in 380ms (View: 158 | 200 OK [http://localhost/clients]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-26 10:32:13) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b343a1f0bdb8205a4000002", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/show
+Rendered shared/_profile (3.1ms)
+Rendered shared/_footer (0.8ms)
+Completed in 102ms (View: 32 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-26 10:32:15) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b343a1f0bdb8205a4000002", "controller"=>"subjects"}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-26 10:32:15) [GET]
+  Parameters: {"unauthenticated"=>"true", "action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.9ms)
+Completed in 63ms (View: 30 | 200 OK [http://localhost/subjects/sign_in?unauthenticated=true]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-26 10:32:24) [GET]
+
+ActionController::RoutingError (No route matches "/subjects" with {:method=>:get}):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-26 10:32:32) [GET]
+
+ActionController::RoutingError (No route matches "/subjects/new" with {:method=>:get}):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 12:39:31) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_profile (5.2ms)
+Rendered shared/_footer (2.6ms)
+Completed in 197ms (View: 189 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-26 12:39:36) [GET]
+
+ActionController::RoutingError (No route matches "/login" with {:method=>:get}):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-26 12:42:24) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_profile (4.4ms)
+Rendered shared/_footer (2.6ms)
+Completed in 192ms (View: 180 | 200 OK [http://localhost/subjects/login]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-26 12:43:49) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_profile (2.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 46ms (View: 20 | 200 OK [http://localhost/subjects/login]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-12-26 12:44:03) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "subject"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "email"=>"a@firefield.com"}, "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 49ms (View: 19 | 200 OK [http://localhost/subjects/login]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-12-26 12:44:08) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "subject"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "email"=>"a@firefield.com"}, "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_profile (2.3ms)
+Rendered shared/_footer (0.9ms)
+Completed in 147ms (View: 117 | 200 OK [http://localhost/subjects/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 12:50:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+ERROR: compiling _run_erb_app47views47shared47_profile46html46erb_locals_object_profile RAISED compile error
+/Users/dmitry/hacks/rbac-rest/app/views/shared/_profile.html.erb:20: syntax error, unexpected kENSURE, expecting kEND
+/Users/dmitry/hacks/rbac-rest/app/views/shared/_profile.html.erb:22: syntax error, unexpected $end, expecting kEND
+Function body:           def _run_erb_app47views47shared47_profile46html46erb_locals_object_profile(local_assigns)
+            old_output_buffer = output_buffer;profile = local_assigns[:profile];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"profile_box\">\n\t"
+; unless session[:subject_name].blank? ; @output_buffer.concat "\t\n\t<div id=\"subject_name\">\n\t\tlogin:&nbsp;"
+
+; @output_buffer.concat((link_to session[:subject_name], clients_url).to_s); @output_buffer.concat "\n\t</div>\n\n\t"
+
+
+; unless @client.blank? ; @output_buffer.concat "\n\t\t<div id=\"edit_profile\">client:&nbsp;"
+; @output_buffer.concat(( link_to @client.name, edit_profile_path(Profile.find_by_client_id_and_subject_id(@client, session[:subject_id])) ).to_s); @output_buffer.concat "</div>\n\t"
+; else; @output_buffer.concat "\n\t\t"
+; unless subject_signed_in?; @output_buffer.concat "\n\t\t\t"
+; @output_buffer.concat((link_to 'login', new_subject_session_path ).to_s); @output_buffer.concat "\t\n\t\t"
+; else; @output_buffer.concat "\n\t\t\t"
+; @output_buffer.concat((link_to 'logout',  destroy_subject_session_path ).to_s); @output_buffer.concat "\t\t\t\t\n\t\t"
+; end; @output_buffer.concat "\n\t"
+; end; @output_buffer.concat "\n\t<div id=\"help_menu_box\">\n\t\t"
+
+; @output_buffer.concat((link_to "home", home_url).to_s); @output_buffer.concat "|"; @output_buffer.concat((link_to "faq", faq_url).to_s); @output_buffer.concat "|"; @output_buffer.concat((link_to "help", help_url).to_s); @output_buffer.concat "|"; @output_buffer.concat((link_to "terms", terms_url).to_s); @output_buffer.concat "\n\t</div>\t\n</div>"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/dmitry/hacks/rbac-rest/app/views/shared/_profile.html.erb:22:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:20:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:19:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/partials.rb:184:in `render_partial'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:262:in `render'
+/Users/dmitry/hacks/rbac-rest/app/views/layouts/application.html.erb:14:in `_run_erb_app47views47layouts47application46html46erb'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:301:in `with_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:30:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:347:in `_render_with_layout'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `catch'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/dmitry/hacks/rbac-rest/app/views/shared/_profile.html.erb:20: syntax error, unexpected kENSURE, expecting kEND
+/Users/dmitry/hacks/rbac-rest/app/views/shared/_profile.html.erb:22: syntax error, unexpected $end, expecting kEND) on line #20 of app/views/shared/_profile.html.erb:
+17: 		<%=link_to "home", home_url%>|<%=link_to "faq", faq_url%>|<%=link_to "help", help_url%>|<%=link_to "terms", terms_url%>
+18: 	</div>	
+19: </div>
+
+    app/views/shared/_profile.html.erb:22:in `compile!'
+    app/views/layouts/application.html.erb:14
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (153.6ms)
+Rendered rescues/_request_and_response (2.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 12:57:14) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+ERROR: compiling _run_erb_app47views47shared47_profile46html46erb_locals_object_profile RAISED compile error
+/Users/dmitry/hacks/rbac-rest/app/views/shared/_profile.html.erb:14: syntax error, unexpected ';', expecting ')'
+...t, subject_signed_in) ).to_s); @output_buffer.concat "\n\t\t...
+                              ^
+Function body:           def _run_erb_app47views47shared47_profile46html46erb_locals_object_profile(local_assigns)
+            old_output_buffer = output_buffer;profile = local_assigns[:profile];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"profile_box\">\n\t<div id=\"subject_name\">\n\t\t"
+
+; unless subject_signed_in?; @output_buffer.concat "\t\t\n\t\t\t"
+; @output_buffer.concat((link_to 'logout',  destroy_subject_session_path ).to_s); @output_buffer.concat ":&nbsp;"; @output_buffer.concat((link_to  subject_signed_in.name, clients_url).to_s); @output_buffer.concat "\n\t\t"
+; else; @output_buffer.concat "\n\t\t\t"
+; @output_buffer.concat((link_to 'login', new_subject_session_path ).to_s); @output_buffer.concat "\t\t\t\t\n\t\t"
+; end; @output_buffer.concat "\n\t</div>\n\n\n\n\t<div id=\"edit_profile\">\n\t\t"
+
+
+
+
+
+; unless @client.blank? ; @output_buffer.concat "\t\t\t\n\t\tclient:&nbsp;"
+; @output_buffer.concat(( link_to @client.name, edit_profile_path(Profile.find_by_client_id_and_subject_id(@client, subject_signed_in) ).to_s); @output_buffer.concat "\n\t\t"
+; end; @output_buffer.concat "\t\t\t\n\t</div>\n\t<div id=\"help_menu_box\">\n\t\t"
+
+
+; @output_buffer.concat((link_to "home", home_url).to_s); @output_buffer.concat "|"; @output_buffer.concat((link_to "faq", faq_url).to_s); @output_buffer.concat "|"; @output_buffer.concat((link_to "help", help_url).to_s); @output_buffer.concat "|"; @output_buffer.concat((link_to "terms", terms_url).to_s); @output_buffer.concat "\n\t</div>\t\n</div>"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/dmitry/hacks/rbac-rest/app/views/shared/_profile.html.erb:23:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:20:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:19:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/partials.rb:184:in `render_partial'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:262:in `render'
+/Users/dmitry/hacks/rbac-rest/app/views/layouts/application.html.erb:14:in `_run_erb_app47views47layouts47application46html46erb'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:301:in `with_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:30:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:347:in `_render_with_layout'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `catch'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/dmitry/hacks/rbac-rest/app/views/shared/_profile.html.erb:14: syntax error, unexpected ';', expecting ')'
+...t, subject_signed_in) ).to_s); @output_buffer.concat "\n\t\t...
+                              ^) on line #14 of app/views/shared/_profile.html.erb:
+11: 
+12: 	<div id="edit_profile">
+13: 		<%unless @client.blank? %>			
+14: 		client:&nbsp;<%= link_to @client.name, edit_profile_path(Profile.find_by_client_id_and_subject_id(@client, subject_signed_in) %>
+15: 		<%end%>			
+16: 	</div>
+17: 	<div id="help_menu_box">
+
+    app/views/shared/_profile.html.erb:23:in `compile!'
+    app/views/layouts/application.html.erb:14
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (97.7ms)
+Rendered rescues/_request_and_response (2.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 13:00:34) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `subject_signed_in' for #<ActionView::Base:0x1042238c8>) on line #4 of app/views/shared/_profile.html.erb:
+1: <div id="profile_box">
+2: 	<div id="subject_name">
+3: 		<%unless subject_signed_in?%>		
+4: 			<%=link_to 'logout',  destroy_subject_session_path %>:&nbsp;<%=link_to  subject_signed_in.name, clients_url%>
+5: 		<%else%>
+6: 			<%=link_to 'login', new_subject_session_path %>				
+7: 		<%end%>
+
+    app/views/shared/_profile.html.erb:4
+    app/views/layouts/application.html.erb:14
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (201.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 13:00:35) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `subject_signed_in' for #<ActionView::Base:0x10435da90>) on line #4 of app/views/shared/_profile.html.erb:
+1: <div id="profile_box">
+2: 	<div id="subject_name">
+3: 		<%unless subject_signed_in?%>		
+4: 			<%=link_to 'logout',  destroy_subject_session_path %>:&nbsp;<%=link_to  subject_signed_in.name, clients_url%>
+5: 		<%else%>
+6: 			<%=link_to 'login', new_subject_session_path %>				
+7: 		<%end%>
+
+    app/views/shared/_profile.html.erb:4
+    app/views/layouts/application.html.erb:14
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (98.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 13:01:11) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined local variable or method `user_signed_in' for #<ActionView::Base:0x1044b23a0>) on line #4 of app/views/shared/_profile.html.erb:
+1: <div id="profile_box">
+2: 	<div id="subject_name">
+3: 		<%unless subject_signed_in?%>		
+4: 			<%=link_to 'logout',  destroy_subject_session_path %>:&nbsp;<%=link_to  user_signed_in.name, clients_url%>
+5: 		<%else%>
+6: 			<%=link_to 'login', new_subject_session_path %>				
+7: 		<%end%>
+
+    app/views/shared/_profile.html.erb:4
+    app/views/layouts/application.html.erb:14
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (98.3ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 13:02:00) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+ERROR: compiling _run_erb_app47views47shared47_profile46html46erb_locals_object_profile RAISED compile error
+/Users/dmitry/hacks/rbac-rest/app/views/shared/_profile.html.erb:14: syntax error, unexpected ';', expecting ')'
+...ent, current_subject) ).to_s); @output_buffer.concat "\n\t\t...
+                              ^
+Function body:           def _run_erb_app47views47shared47_profile46html46erb_locals_object_profile(local_assigns)
+            old_output_buffer = output_buffer;profile = local_assigns[:profile];object = local_assigns[:object];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div id=\"profile_box\">\n\t<div id=\"subject_name\">\n\t\t"
+
+; unless subject_signed_in?; @output_buffer.concat "\t\t\n\t\t\t"
+; @output_buffer.concat((link_to 'logout',  destroy_subject_session_path ).to_s); @output_buffer.concat ":&nbsp;"; @output_buffer.concat((link_to  current_subject.name, clients_url).to_s); @output_buffer.concat "\n\t\t"
+; else; @output_buffer.concat "\n\t\t\t"
+; @output_buffer.concat((link_to 'login', new_subject_session_path ).to_s); @output_buffer.concat "\t\t\t\t\n\t\t"
+; end; @output_buffer.concat "\n\t</div>\n\n\n\n\t<div id=\"edit_profile\">\n\t\t"
+
+
+
+
+
+; unless @client.blank? ; @output_buffer.concat "\t\t\t\n\t\tclient:&nbsp;"
+; @output_buffer.concat(( link_to @client.name, edit_profile_path(Profile.find_by_client_id_and_subject_id(@client, current_subject) ).to_s); @output_buffer.concat "\n\t\t"
+; end; @output_buffer.concat "\t\t\t\n\t</div>\n\t<div id=\"help_menu_box\">\n\t\t"
+
+
+; @output_buffer.concat((link_to "home", home_url).to_s); @output_buffer.concat "|"; @output_buffer.concat((link_to "faq", faq_url).to_s); @output_buffer.concat "|"; @output_buffer.concat((link_to "help", help_url).to_s); @output_buffer.concat "|"; @output_buffer.concat((link_to "terms", terms_url).to_s); @output_buffer.concat "\n\t</div>\t\n</div>"
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/dmitry/hacks/rbac-rest/app/views/shared/_profile.html.erb:23:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:20:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:19:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/partials.rb:184:in `render_partial'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:262:in `render'
+/Users/dmitry/hacks/rbac-rest/app/views/layouts/application.html.erb:14:in `_run_erb_app47views47layouts47application46html46erb'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:34:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:301:in `with_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:30:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:347:in `_render_with_layout'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `catch'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+
+ActionView::TemplateError (compile error
+/Users/dmitry/hacks/rbac-rest/app/views/shared/_profile.html.erb:14: syntax error, unexpected ';', expecting ')'
+...ent, current_subject) ).to_s); @output_buffer.concat "\n\t\t...
+                              ^) on line #14 of app/views/shared/_profile.html.erb:
+11: 
+12: 	<div id="edit_profile">
+13: 		<%unless @client.blank? %>			
+14: 		client:&nbsp;<%= link_to @client.name, edit_profile_path(Profile.find_by_client_id_and_subject_id(@client, current_subject) %>
+15: 		<%end%>			
+16: 	</div>
+17: 	<div id="help_menu_box">
+
+    app/views/shared/_profile.html.erb:23:in `compile!'
+    app/views/layouts/application.html.erb:14
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (205.8ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 13:02:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.name) on line #4 of app/views/shared/_profile.html.erb:
+1: <div id="profile_box">
+2: 	<div id="subject_name">
+3: 		<%unless subject_signed_in?%>		
+4: 			<%=link_to 'logout',  destroy_subject_session_path %>:&nbsp;<%=link_to  current_subject.name, clients_url%>
+5: 		<%else%>
+6: 			<%=link_to 'login', new_subject_session_path %>				
+7: 		<%end%>
+
+    app/views/shared/_profile.html.erb:4
+    app/views/layouts/application.html.erb:14
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (97.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 13:03:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_profile (5.2ms)
+Rendered shared/_footer (2.4ms)
+Completed in 143ms (View: 33 | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-26 13:03:30) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_profile (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 61ms (View: 36 | 200 OK [http://localhost/subjects/login]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-26 13:03:43) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_profile (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 340ms (View: 63 | 200 OK [http://localhost/clients]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-26 13:04:36) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-26 13:04:36) [GET]
+  Parameters: {"unauthenticated"=>"true", "action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_profile (2.6ms)
+Rendered shared/_footer (0.9ms)
+Completed in 50ms (View: 20 | 200 OK [http://localhost/subjects/login?unauthenticated=true]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-26 13:05:17) [GET]
+
+ActionController::RoutingError (No route matches "/subjects/new" with {:method=>:get}):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-26 13:05:25) [GET]
+
+ActionController::RoutingError (No route matches "/sessions/new" with {:method=>:get}):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 13:05:47) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_profile (3.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 23ms (View: 15 | 200 OK [http://localhost/home/index]
+
+
+Processing HomeController#faq (for 127.0.0.1 at 2009-12-26 13:05:48) [GET]
+  Parameters: {"action"=>"faq", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/faq
+Rendered shared/_profile (3.3ms)
+Rendered shared/_footer (0.7ms)
+Completed in 101ms (View: 94 | 200 OK [http://localhost/home/faq]
+
+
+Processing HomeController#help (for 127.0.0.1 at 2009-12-26 13:05:49) [GET]
+  Parameters: {"action"=>"help", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/help
+Rendered shared/_profile (3.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 203ms (View: 195 | 200 OK [http://localhost/home/help]
+
+
+Processing HomeController#terms (for 127.0.0.1 at 2009-12-26 13:05:50) [GET]
+  Parameters: {"action"=>"terms", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/terms
+Rendered shared/_profile (3.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 38ms (View: 30 | 200 OK [http://localhost/home/terms]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-26 13:05:52) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_profile (2.6ms)
+Rendered shared/_footer (0.7ms)
+Completed in 46ms (View: 21 | 200 OK [http://localhost/subjects/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 13:05:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_profile (6.0ms)
+Rendered shared/_footer (0.8ms)
+Completed in 24ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-12-26 13:06:07) [GET]
+  Parameters: {"action"=>"new", "controller"=>"profiles"}
+
+NameError (uninitialized constant ProfilesController):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (144.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 16:12:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_profile (119.7ms)
+Rendered shared/_footer (2.1ms)
+Completed in 530ms (View: 400 | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-26 16:12:14) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_profile (3.3ms)
+Rendered shared/_footer (1.0ms)
+Completed in 177ms (View: 44 | 200 OK [http://localhost/subjects/login]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-26 16:12:17) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_profile (4.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 25ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-26 16:12:23) [GET]
+
+ActionController::RoutingError (No route matches "/subect/new" with {:method=>:get}):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-26 16:12:30) [GET]
+
+ActionController::RoutingError (No route matches "/subject/new" with {:method=>:get}):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-26 16:17:24) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-26 16:17:24) [GET]
+  Parameters: {"unauthenticated"=>"true", "action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_profile (14.7ms)
+Rendered shared/_footer (18.1ms)
+Completed in 303ms (View: 136 | 200 OK [http://localhost/subjects/login?unauthenticated=true]

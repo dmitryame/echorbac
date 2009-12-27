@@ -25,7 +25,7 @@ Devise.setup do |config|
   # authenticating an user, both parameters are required. Remember that those
   # parameters are used only when authenticating and not when retrieving from
   # session. If you need permissions, you should implement that in a before filter.
-  config.authentication_keys = [ :name ]
+  # config.authentication_keys = [ :name ]
 
   # The time you want give to your user to confirm his account. During this time
   # he will be able to access your application without confirming. Default is nil.
