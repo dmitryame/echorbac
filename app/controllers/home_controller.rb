@@ -4,6 +4,7 @@
 class HomeController < ApplicationController
 
   def index
+    redirect_to :clients if user_signed_in?    
   end
  
   def insufficient

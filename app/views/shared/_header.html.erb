@@ -7,11 +7,9 @@
 		<%end%>
 	</div>
 
-
-
-	<div id="edit_user">
+	<div id="client">
 		<%unless @client.blank? %>			
-		client:&nbsp;<%#= link_to @client.name, edit_profile_path(Profile.find_by_client_id_and_subject_id(@client, current_subject) %>
+			client:&nbsp;<%= @client.name %>
 		<%end%>			
 	</div>
 	<div id="help_menu_box">

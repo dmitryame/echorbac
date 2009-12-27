@@ -1,5 +1,6 @@
 class ClientsController < ApplicationController
-s  # GET /clients
+  before_filter :authenticate_user!
+  # GET /clients
   # GET /clients.xml
   def index    
     @clients = Client.all#logeed_in_subject.managed_clients
