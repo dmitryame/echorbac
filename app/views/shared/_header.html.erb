@@ -1,15 +1,15 @@
-<div id="profile_box">
-	<div id="subject_name">
-		<%if subject_signed_in?%>		
-			<%=link_to 'logout',  destroy_subject_session_path %>:&nbsp;<%=link_to  current_subject.name, clients_url%>
+<div id="header_box">
+	<div id="user_name">
+		<%if user_signed_in?%>		
+			<%=link_to 'logout',  destroy_user_session_path %>:&nbsp;<%=  current_user.email%>
 		<%else%>
-			<%=link_to 'login', new_subject_session_path %>				
+			<%=link_to 'login', new_user_session_path %>				
 		<%end%>
 	</div>
 
 
 
-	<div id="edit_profile">
+	<div id="edit_user">
 		<%unless @client.blank? %>			
 		client:&nbsp;<%#= link_to @client.name, edit_profile_path(Profile.find_by_client_id_and_subject_id(@client, current_subject) %>
 		<%end%>			

@@ -6365,3 +6365,1115 @@ Rendering sessions/new
 Rendered shared/_profile (14.7ms)
 Rendered shared/_footer (18.1ms)
 Completed in 303ms (View: 136 | 200 OK [http://localhost/subjects/login?unauthenticated=true]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 16:35:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `subject_signed_in?' for #<ActionView::Base:0x1044d92e8>) on line #3 of app/views/shared/_profile.html.erb:
+1: <div id="profile_box">
+2: 	<div id="subject_name">
+3: 		<%if subject_signed_in?%>		
+4: 			<%=link_to 'logout',  destroy_subject_session_path %>:&nbsp;<%=link_to  current_subject.name, clients_url%>
+5: 		<%else%>
+6: 			<%=link_to 'login', new_subject_session_path %>				
+
+    app/views/shared/_profile.html.erb:3
+    app/views/layouts/application.html.erb:14
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (102.4ms)
+Rendered rescues/_request_and_response (2.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 16:45:04) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+
+ActionView::TemplateError (undefined method `subject_signed_in?' for #<ActionView::Base:0x104160058>) on line #3 of app/views/shared/_header.html.erb:
+1: <div id="header_box">
+2: 	<div id="subject_name">
+3: 		<%if subject_signed_in?%>		
+4: 			<%=link_to 'logout',  destroy_subject_session_path %>:&nbsp;<%=link_to  current_subject.name, clients_url%>
+5: 		<%else%>
+6: 			<%=link_to 'login', new_subject_session_path %>				
+
+    app/views/shared/_header.html.erb:3
+    app/views/layouts/application.html.erb:14
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (99.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 16:47:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (5.9ms)
+Rendered shared/_footer (34.7ms)
+Completed in 73ms (View: 65 | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-27 16:47:30) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 63ms (View: 35 | 200 OK [http://localhost/users/sign_in]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-12-27 16:48:12) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+
+NameError (uninitialized constant UsersController):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (54.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 16:48:20) [GET]
+
+ActionController::RoutingError (No route matches "/user/new" with {:method=>:get}):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-12-27 16:48:26) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+
+NameError (uninitialized constant UsersController):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (53.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 16:49:39) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+
+ActionView::TemplateError (undefined method `title' for #<ActionView::Base:0x104109898>) on line #1 of app/views/users/new.html.erb:
+1: <% title 'Sign Up' -%>
+2: 
+3: <% form_for @user, :url => user_path do |f| -%>
+4:   <%= f.error_messages %>
+
+    app/views/users/new.html.erb:1
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (79.7ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 16:58:23) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+
+ActionView::TemplateError (undefined method `title' for #<ActionView::Base:0x104241468>) on line #1 of app/views/users/new.html.erb:
+1: <% title 'Sign Up' -%>
+2: 
+3: <% form_for @user, :url => user_path do |f| -%>
+4:   <%= f.error_messages %>
+
+    app/views/users/new.html.erb:1
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (182.5ms)
+Rendered rescues/_request_and_response (1.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 16:58:33) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Footnotes QueriesNote Exception: uninitialized constant Footnotes::Notes::QueriesNote
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:440:in `load_missing_constant'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:361:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:51:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:64:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:50:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:32:in `before'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `evaluate_method'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:166:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:225:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:629:in `run_before_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:615:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `catch'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+Rendering template within layouts/application
+Rendering users/new
+
+ActionView::TemplateError (undefined method `title' for #<ActionView::Base:0x104423420>) on line #1 of app/views/users/new.html.erb:
+1: <% title 'Sign Up' -%>
+2: 
+3: <% form_for @user, :url => user_path do |f| -%>
+4:   <%= f.error_messages %>
+
+    app/views/users/new.html.erb:1
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (95.6ms)
+Rendered rescues/_request_and_response (2.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 17:02:10) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Footnotes QueriesNote Exception: uninitialized constant Footnotes::Notes::QueriesNote
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:440:in `load_missing_constant'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:361:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:51:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:64:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:50:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:32:in `before'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `evaluate_method'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:166:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:225:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:629:in `run_before_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:615:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `catch'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+Rendering template within layouts/application
+Rendering users/new
+
+ActionView::TemplateError (user_url failed to generate from {:action=>"show", :controller=>"users"} - you may have ambiguous routes, or you may need to supply additional parameters for this route.  content_url has the following required parameters: ["users", :id] - are they all satisfied?) on line #3 of app/views/users/new.html.erb:
+1: <% title 'Sign Up' -%>
+2: 
+3: <% form_for @user, :url => user_path do |f| -%>
+4:   <%= f.error_messages %>
+5:   <p><%= f.label :email %></p>
+6:   <p><%= f.text_field :email %></p>
+
+    (eval):16:in `user_path'
+    app/views/users/new.html.erb:3
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (112.4ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 17:03:14) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Footnotes QueriesNote Exception: uninitialized constant Footnotes::Notes::QueriesNote
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:440:in `load_missing_constant'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:361:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:51:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:64:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:50:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:32:in `before'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `evaluate_method'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:166:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:225:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:629:in `run_before_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:615:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `catch'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+Rendering template within layouts/application
+Rendering users/new
+Rendered shared/_header (4.7ms)
+Rendered shared/_footer (104.4ms)
+DEPRECATION WARNING: ActionController::Session::AbstractStore::SessionHash#data has been deprecated. Please use #to_hash instead.. (called from initialize at /usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/notes/session_note.rb:7)
+Completed in 232ms (View: 183 | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 17:03:34) [POST]
+  Parameters: {"commit"=>"Sign Up", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"dmitry@custommode.com"}}
+Footnotes QueriesNote Exception: uninitialized constant Footnotes::Notes::QueriesNote
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:440:in `load_missing_constant'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:361:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:51:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:64:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:50:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:32:in `before'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `evaluate_method'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:166:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:225:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:629:in `run_before_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:615:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `catch'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+Rendering template within layouts/application
+Rendering users/new
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+DEPRECATION WARNING: ActionController::Session::AbstractStore::SessionHash#data has been deprecated. Please use #to_hash instead.. (called from initialize at /usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/notes/session_note.rb:7)
+Completed in 182ms (View: 25 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 17:03:39) [POST]
+  Parameters: {"commit"=>"Sign Up", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"dmitry@custommode.com"}}
+Footnotes QueriesNote Exception: uninitialized constant Footnotes::Notes::QueriesNote
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:440:in `load_missing_constant'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:361:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:51:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:64:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:50:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:32:in `before'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `evaluate_method'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:166:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:225:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:629:in `run_before_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:615:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `catch'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+Sent mail to dmitry@custommode.com
+
+Date: Sun, 27 Dec 2009 17:03:40 -0500
+To: dmitry@custommode.com
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+Welcome dmitry@custommode.com!
+
+You can confirm your account through the link below:
+
+<a href="http://localhost:3000/users/confirmation?confirmation_token=rWYbZnmTM0hw3EWkdTGV">Confirm my account</a>
+Redirected to http://localhost:3000/
+Completed in 607ms | 302 Found [http://localhost/users]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 17:03:40) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Footnotes QueriesNote Exception: uninitialized constant Footnotes::Notes::QueriesNote
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:440:in `load_missing_constant'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:361:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:51:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:64:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:50:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:32:in `before'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `evaluate_method'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:166:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:225:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:629:in `run_before_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:615:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `catch'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (3.4ms)
+Rendered shared/_footer (0.8ms)
+DEPRECATION WARNING: ActionController::Session::AbstractStore::SessionHash#data has been deprecated. Please use #to_hash instead.. (called from initialize at /usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/notes/session_note.rb:7)
+Completed in 59ms (View: 29 | 200 OK [http://localhost/]
+
+
+Processing ConfirmationsController#show (for 127.0.0.1 at 2009-12-27 17:04:01) [GET]
+  Parameters: {"action"=>"show", "controller"=>"confirmations", "confirmation_token"=>"rWYbZnmTM0hw3EWkdTGV"}
+Footnotes QueriesNote Exception: uninitialized constant Footnotes::Notes::QueriesNote
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:440:in `load_missing_constant'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:361:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:51:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:64:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:50:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:32:in `before'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `evaluate_method'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:166:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:225:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:629:in `run_before_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:615:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `catch'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+Redirected to http://localhost:3000/
+Completed in 70ms | 302 Found [http://localhost/users/confirmation?confirmation_token=rWYbZnmTM0hw3EWkdTGV]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 17:04:01) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Footnotes QueriesNote Exception: uninitialized constant Footnotes::Notes::QueriesNote
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:440:in `load_missing_constant'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/dependencies.rb:80:in `const_missing'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:361:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/inflector.rb:360:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:51:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:64:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:62:in `each_with_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:50:in `start!'
+/usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/footnotes.rb:32:in `before'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:185:in `evaluate_method'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/callbacks.rb:166:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:225:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:629:in `run_before_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:615:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:96:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `catch'
+/usr/local/lib/ruby/gems/1.8/gems/warden-0.6.5/lib/warden/manager.rb:95:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./script/server:3
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (43.6ms)
+Rendered shared/_footer (0.8ms)
+DEPRECATION WARNING: ActionController::Session::AbstractStore::SessionHash#data has been deprecated. Please use #to_hash instead.. (called from initialize at /usr/local/lib/ruby/gems/1.8/gems/rails-footnotes-3.6.5/lib/rails-footnotes/notes/session_note.rb:7)
+Completed in 95ms (View: 57 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 17:04:32) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (114.9ms)
+Rendered shared/_footer (3.6ms)
+Completed in 205ms (View: 197 | 200 OK [http://localhost/]
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2009-12-27 17:04:44) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+Completed in 42ms | 302 Found [http://localhost/users/sign_out]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 17:04:44) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (3.6ms)
+Rendered shared/_footer (0.9ms)
+Completed in 136ms (View: 15 | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-27 17:04:46) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 63ms (View: 35 | 200 OK [http://localhost/users/sign_in]
+
+
+Processing PasswordsController#new (for 127.0.0.1 at 2009-12-27 17:04:50) [GET]
+  Parameters: {"action"=>"new", "controller"=>"passwords"}
+Rendering template within layouts/application
+Rendering passwords/new
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 61ms (View: 31 | 200 OK [http://localhost/users/password/new]
+
+
+Processing ConfirmationsController#new (for 127.0.0.1 at 2009-12-27 17:04:54) [GET]
+  Parameters: {"action"=>"new", "controller"=>"confirmations"}
+Rendering template within layouts/application
+Rendering confirmations/new
+Rendered shared/_header (2.9ms)
+Rendered shared/_footer (0.7ms)
+Completed in 60ms (View: 32 | 200 OK [http://localhost/users/confirmation/new]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-27 17:04:56) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_header (2.6ms)
+Rendered shared/_footer (0.7ms)
+Completed in 46ms (View: 19 | 200 OK [http://localhost/users/sign_in]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-12-27 17:04:58) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "controller"=>"sessions", "user"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "email"=>"dmitry@custommode.com"}}
+Redirected to http://localhost:3000/
+Completed in 114ms | 302 Found [http://localhost/users/sign_in]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 17:04:58) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (42.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 63ms (View: 55 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 17:05:21) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (33.1ms)
+Rendered shared/_footer (0.9ms)
+Completed in 53ms (View: 44 | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 17:05:32) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (35.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 55ms (View: 47 | 200 OK [http://localhost/home/index]
+
+
+Processing HomeController#faq (for 127.0.0.1 at 2009-12-27 17:05:33) [GET]
+  Parameters: {"action"=>"faq", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/faq
+Rendered shared/_header (33.5ms)
+Rendered shared/_footer (1.0ms)
+Completed in 58ms (View: 50 | 200 OK [http://localhost/home/faq]
+
+
+Processing HomeController#help (for 127.0.0.1 at 2009-12-27 17:05:35) [GET]
+  Parameters: {"action"=>"help", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/help
+Rendered shared/_header (36.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 227ms (View: 220 | 200 OK [http://localhost/home/help]
+
+
+Processing HomeController#terms (for 127.0.0.1 at 2009-12-27 17:05:36) [GET]
+  Parameters: {"action"=>"terms", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/terms
+Rendered shared/_header (35.1ms)
+Rendered shared/_footer (0.8ms)
+Completed in 70ms (View: 63 | 200 OK [http://localhost/home/terms]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 17:05:38) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (37.0ms)
+Rendered shared/_footer (0.9ms)
+Completed in 57ms (View: 49 | 200 OK [http://localhost/home/index]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 17:05:47) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+
+NameError (undefined local variable or method `s' for ClientsController:Class):
+  app/controllers/clients_controller.rb:2
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (64.7ms)
+Rendered rescues/_request_and_response (2.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 17:06:04) [GET]
+
+ActionController::RoutingError (No route matches "/client" with {:method=>:get}):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
