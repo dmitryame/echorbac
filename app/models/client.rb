@@ -4,7 +4,7 @@ class Client
 
   key :name, String, :index => true
   
-  has_many :subjects, :dependent => :destroy  
-  has_many :resources, :dependent => :destroy  
-  has_many :roles, :dependent => :destroy  
+  many :subjects, :dependent => :destroy  
+  many :resources, :dependent => :destroy  
+  many :roles, :dependent => :destroy  
 end

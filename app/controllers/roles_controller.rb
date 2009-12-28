@@ -59,20 +59,20 @@ class RolesController < ApplicationController
 
   # PUT /roles/1
   # PUT /roles/1.xml
-  def update
-    @role = @client.roles.find(params[:id])
-
-    respond_to do |format|
-      if @role.update_attributes(params[:role])
-        flash[:notice] = 'Role was successfully updated.'
-        format.html { redirect_to client_role_url(@client, @role) }
-        format.xml  { head :ok }
-      else
-        format.html { render :action => "edit" }
-        format.xml  { render :xml => @role.errors, :status => :unprocessable_entity }
-      end
-    end
-  end
+  # def update
+  #   @role = @client.roles.find(params[:id])
+  # 
+  #   respond_to do |format|
+  #     if @role.update_attributes(params[:role])
+  #       flash[:notice] = 'Role was successfully updated.'
+  #       format.html { redirect_to client_role_url(@client, @role) }
+  #       format.xml  { head :ok }
+  #     else
+  #       format.html { render :action => "edit" }
+  #       format.xml  { render :xml => @role.errors, :status => :unprocessable_entity }
+  #     end
+  #   end
+  # end
 
   # DELETE /roles/1
   # DELETE /roles/1.xml
@@ -92,7 +92,7 @@ private
 
   def find_client
     @client_id = params[:client_id]
-    redirect_to clients_url unless @client_id
+    redirect_to clients_url unless @client_id || current_user.clients.include?(@client_id)
     @client = Client.find(@client_id)
   end
 

@@ -59,20 +59,20 @@ class ResourcesController < ApplicationController
 
   # PUT /resources/1
   # PUT /resources/1.xml
-  def update
-    @resource = @client.resources.find(params[:id])
-
-    respond_to do |format|
-      if @resource.update_attributes(params[:resource])
-        flash[:notice] = 'Resource was successfully updated.'
-        format.html { redirect_to client_resource_url(@client, @resource) }
-        format.xml  { head :ok }
-      else
-        format.html { render :action => "edit" }
-        format.xml  { render :xml => @resource.errors, :status => :unprocessable_entity }
-      end
-    end
-  end
+  # def update
+  #   @resource = @client.resources.find(params[:id])
+  # 
+  #   respond_to do |format|
+  #     if @resource.update_attributes(params[:resource])
+  #       flash[:notice] = 'Resource was successfully updated.'
+  #       format.html { redirect_to client_resource_url(@client, @resource) }
+  #       format.xml  { head :ok }
+  #     else
+  #       format.html { render :action => "edit" }
+  #       format.xml  { render :xml => @resource.errors, :status => :unprocessable_entity }
+  #     end
+  #   end
+  # end
 
   # DELETE /resources/1
   # DELETE /resources/1.xml

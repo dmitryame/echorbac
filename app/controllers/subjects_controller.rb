@@ -67,20 +67,20 @@ class SubjectsController < ApplicationController
 
   # PUT /subjects/1
   # PUT /subjects/1.xml
-  def update
-    @subject = @client.subjects.find(params[:id])
-
-    respond_to do |format|
-      if @subject.update_attributes(params[:subject])
-        flash[:notice] = 'Subject was successfully updated.'
-        format.html { redirect_to client_subject_url(@client, @subject) }
-        format.xml  { head :ok }
-      else
-        format.html { render :action => "edit" }
-        format.xml  { render :xml => @subject.errors, :status => :unprocessable_entity }
-      end
-    end
-  end
+  # def update
+  #   @subject = @client.subjects.find(params[:id])
+  # 
+  #   respond_to do |format|
+  #     if @subject.update_attributes(params[:subject])
+  #       flash[:notice] = 'Subject was successfully updated.'
+  #       format.html { redirect_to client_subject_url(@client, @subject) }
+  #       format.xml  { head :ok }
+  #     else
+  #       format.html { render :action => "edit" }
+  #       format.xml  { render :xml => @subject.errors, :status => :unprocessable_entity }
+  #     end
+  #   end
+  # end
 
   # DELETE /subjects/1
   # DELETE /subjects/1.xml
