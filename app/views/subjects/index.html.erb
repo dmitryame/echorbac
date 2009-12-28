@@ -3,13 +3,11 @@
 <table>
   <tr>
     <th>Name</th>
-    <th>Email</th>
   </tr>
 
 <% for subject in @subjects %>
   <tr>
     <td><%= link_to((h subject.name) , client_subject_path(@client, subject)) %></td>
-    <td><%=h subject.email %></td>
     <td><%= link_to image_tag("edit.png", :border => 0, :width => 16, :height => 16), edit_client_subject_path(@client, subject) %></td>
     <td><%= link_to image_tag("trash.png", :border => 0, :width => 16, :height => 16), client_subject_path(@client, subject), :confirm => 'Are you sure?', :method => :delete %></td>
   </tr>

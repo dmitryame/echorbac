@@ -7924,3 +7924,1228 @@ Rendering clients/edit
 Rendered shared/_header (2.8ms)
 Rendered shared/_footer (0.8ms)
 Completed in 262ms (View: 171 | 200 OK [http://localhost/clients/4b343a1f0bdb8205a4000002/edit]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 17:57:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://localhost:3000/clients
+Completed in 39ms | 302 Found [http://localhost/home/index]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 17:57:45) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.clients):
+  app/controllers/clients_controller.rb:6:in `index'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (66.1ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 18:00:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://localhost:3000/clients
+Completed in 40ms | 302 Found [http://localhost/]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 18:00:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.clients):
+  app/controllers/clients_controller.rb:6:in `index'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.3ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 18:00:25) [GET]
+
+ActionController::RoutingError (No route matches "/logout" with {:method=>:get}):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2009-12-27 18:01:49) [GET]
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+Completed in 44ms | 302 Found [http://localhost/users/sign_out]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 18:01:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (2.6ms)
+Rendered shared/_footer (0.7ms)
+Completed in 22ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-27 18:01:53) [GET]
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_header (3.1ms)
+Rendered shared/_footer (0.9ms)
+Completed in 181ms (View: 152 | 200 OK [http://localhost/users/sign_in]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 20:06:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (67.2ms)
+Rendered shared/_footer (5.0ms)
+Completed in 1032ms (View: 763 | 200 OK [http://localhost/]
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-12-27 20:06:17) [GET]
+  Parameters: {"action"=>"new", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/new
+Rendered shared/_header (3.9ms)
+Rendered shared/_footer (1.3ms)
+Completed in 660ms (View: 488 | 200 OK [http://localhost/users/new]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 20:06:35) [POST]
+  Parameters: {"commit"=>"Sign Up", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"dmitry@custommode.com"}}
+Rendering template within layouts/application
+Rendering users/new
+Rendered shared/_header (44.3ms)
+Rendered shared/_footer (1.7ms)
+Completed in 654ms (View: 120 | 200 OK [http://localhost/users]
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-12-27 20:06:47) [POST]
+  Parameters: {"commit"=>"Sign Up", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "controller"=>"users", "user"=>{"password_confirmation"=>"[FILTERED]", "password"=>"[FILTERED]", "email"=>"dmitry1@custommode.com"}}
+Sent mail to dmitry1@custommode.com
+
+Date: Sun, 27 Dec 2009 20:06:49 -0500
+To: dmitry1@custommode.com
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+Welcome dmitry1@custommode.com!
+
+You can confirm your account through the link below:
+
+<a href="http://localhost:3000/users/confirmation?confirmation_token=9jF59AOR_D1ruWG06EBf">Confirm my account</a>
+Redirected to http://localhost:3000/
+Completed in 2481ms | 302 Found [http://localhost/users]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 20:06:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/application
+Rendering home/index
+Rendered shared/_header (2.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 23ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing ConfirmationsController#show (for 127.0.0.1 at 2009-12-27 20:07:07) [GET]
+  Parameters: {"action"=>"show", "controller"=>"confirmations", "confirmation_token"=>"9jF59AOR_D1ruWG06EB"}
+Rendering template within layouts/application
+Rendering confirmations/new
+Rendered shared/_header (2.6ms)
+Rendered shared/_footer (0.7ms)
+Completed in 93ms (View: 31 | 200 OK [http://localhost/users/confirmation?confirmation_token=9jF59AOR_D1ruWG06EB]
+
+
+Processing ConfirmationsController#show (for 127.0.0.1 at 2009-12-27 20:07:19) [GET]
+  Parameters: {"action"=>"show", "controller"=>"confirmations", "confirmation_token"=>"9jF59AOR_D1ruWG06EBf"}
+Redirected to http://localhost:3000/
+Completed in 52ms | 302 Found [http://localhost/users/confirmation?confirmation_token=9jF59AOR_D1ruWG06EBf]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 20:07:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://localhost:3000/clients
+Completed in 40ms | 302 Found [http://localhost/]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 20:07:20) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.clients):
+  app/controllers/clients_controller.rb:6:in `index'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (113.7ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 20:49:32) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2009-12-27 20:49:33) [GET]
+  Parameters: {"timeout"=>"true", "action"=>"new", "controller"=>"sessions"}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_header (3.9ms)
+Rendered shared/_footer (0.8ms)
+Completed in 270ms (View: 236 | 200 OK [http://localhost/users/sign_in?timeout=true]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-12-27 20:49:39) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "controller"=>"sessions", "user"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "email"=>"dmitry@custommode.com"}}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 60ms (View: 20 | 200 OK [http://localhost/users/sign_in]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-12-27 20:49:43) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "controller"=>"sessions", "user"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "email"=>"dmitry@custommode.com"}}
+Rendering template within layouts/application
+Rendering sessions/new
+Rendered shared/_header (2.6ms)
+Rendered shared/_footer (0.7ms)
+Completed in 55ms (View: 19 | 200 OK [http://localhost/users/sign_in]
+
+
+Processing SessionsController#create (for 127.0.0.1 at 2009-12-27 20:49:50) [POST]
+  Parameters: {"commit"=>"Sign in", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "controller"=>"sessions", "user"=>{"remember_me"=>"0", "password"=>"[FILTERED]", "email"=>"dmitry1@custommode.com"}}
+Redirected to http://localhost:3000/home/index
+Completed in 51ms | 302 Found [http://localhost/users/sign_in]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 20:49:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://localhost:3000/clients
+Completed in 76ms | 302 Found [http://localhost/home/index]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 20:49:50) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.clients):
+  app/controllers/clients_controller.rb:6:in `index'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.8ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 20:52:15) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.clients):
+  app/controllers/clients_controller.rb:8:in `index'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (85.2ms)
+Rendered rescues/_request_and_response (156.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 20:52:17) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.clients):
+  app/controllers/clients_controller.rb:8:in `index'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 20:52:18) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.clients):
+  app/controllers/clients_controller.rb:8:in `index'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (61.8ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 20:53:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+
+NoMethodError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.clients):
+  app/controllers/clients_controller.rb:10:in `index'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (232.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 20:54:12) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_header (2.6ms)
+Rendered shared/_footer (0.7ms)
+Completed in 164ms (View: 32 | 200 OK [http://localhost/clients]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-12-27 20:57:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+
+SyntaxError (/Users/dmitry/hacks/rbac-rest/app/controllers/clients_controller.rb:3: syntax error, unexpected ',', expecting tASSOC
+  before_filter :find_client, :except => :index, :new, :create
+                                                      ^):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (224.9ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 20:58:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_header (2.6ms)
+Rendered shared/_footer (1.1ms)
+Completed in 102ms (View: 13 | 200 OK [http://localhost/clients]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 21:00:48) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 103ms (View: 14 | 200 OK [http://localhost/clients]
+
+
+Processing ClientsController#new (for 127.0.0.1 at 2009-12-27 21:00:50) [GET]
+  Parameters: {"action"=>"new", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/new
+Rendered shared/_header (3.3ms)
+Rendered shared/_footer (0.8ms)
+Completed in 329ms (View: 39 | 200 OK [http://localhost/clients/new]
+
+
+Processing ClientsController#create (for 127.0.0.1 at 2009-12-27 21:00:55) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "client"=>{"name"=>"qweqweqwe"}, "controller"=>"clients"}
+Redirected to http://localhost:3000/clients/4b3811570bdb821291000002
+Completed in 380ms | 302 Found [http://localhost/clients]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-27 21:00:56) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3811570bdb821291000002", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/show
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 283ms (View: 17 | 200 OK [http://localhost/clients/4b3811570bdb821291000002]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 21:01:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://localhost:3000/clients
+Completed in 58ms | 302 Found [http://localhost/home/index]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 21:01:06) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 270ms (View: 13 | 200 OK [http://localhost/clients]
+
+
+Processing ClientsController#new (for 127.0.0.1 at 2009-12-27 21:01:49) [GET]
+  Parameters: {"action"=>"new", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/new
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 106ms (View: 19 | 200 OK [http://localhost/clients/new]
+
+
+Processing ClientsController#create (for 127.0.0.1 at 2009-12-27 21:01:52) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "client"=>{"name"=>"qweqweqwe"}, "controller"=>"clients"}
+Redirected to http://localhost:3000/clients/4b3811900bdb821291000003
+Completed in 286ms | 302 Found [http://localhost/clients]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-27 21:01:53) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3811900bdb821291000003", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/show
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 116ms (View: 17 | 200 OK [http://localhost/clients/4b3811900bdb821291000003]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 21:01:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://localhost:3000/clients
+Completed in 212ms | 302 Found [http://localhost/home/index]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 21:01:56) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_header (2.6ms)
+Rendered shared/_footer (0.8ms)
+Completed in 124ms (View: 28 | 200 OK [http://localhost/clients]
+
+
+Processing ClientsController#new (for 127.0.0.1 at 2009-12-27 21:02:06) [GET]
+  Parameters: {"action"=>"new", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/new
+Rendered shared/_header (3.1ms)
+Rendered shared/_footer (0.7ms)
+Completed in 149ms (View: 20 | 200 OK [http://localhost/clients/new]
+
+
+Processing ClientsController#create (for 127.0.0.1 at 2009-12-27 21:02:10) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "client"=>{"name"=>"dalskdlkjasd\\"}, "controller"=>"clients"}
+Redirected to http://localhost:3000/clients/4b3811a30bdb821291000004
+Completed in 163ms | 302 Found [http://localhost/clients]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-27 21:02:11) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3811a30bdb821291000004", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/show
+Rendered shared/_header (3.1ms)
+Rendered shared/_footer (0.8ms)
+Completed in 125ms (View: 20 | 200 OK [http://localhost/clients/4b3811a30bdb821291000004]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 21:02:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://localhost:3000/clients
+Completed in 45ms | 302 Found [http://localhost/home/index]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 21:02:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_header (2.6ms)
+Rendered shared/_footer (0.8ms)
+Completed in 148ms (View: 42 | 200 OK [http://localhost/clients]
+
+
+Processing ClientsController#edit (for 127.0.0.1 at 2009-12-27 21:02:17) [GET]
+  Parameters: {"action"=>"edit", "id"=>"4b3811a30bdb821291000004", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/edit
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 124ms (View: 26 | 200 OK [http://localhost/clients/4b3811a30bdb821291000004/edit]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-27 21:02:20) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3811a30bdb821291000004", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/show
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.9ms)
+Completed in 116ms (View: 17 | 200 OK [http://localhost/clients/4b3811a30bdb821291000004]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 21:02:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.7ms)
+Completed in 139ms (View: 42 | 200 OK [http://localhost/clients]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 21:04:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.7ms)
+Completed in 127ms (View: 30 | 200 OK [http://localhost/clients]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-27 21:04:05) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3811900bdb821291000003", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/show
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 119ms (View: 18 | 200 OK [http://localhost/clients/4b3811900bdb821291000003]
+
+
+Processing ClientsController#edit (for 127.0.0.1 at 2009-12-27 21:04:07) [GET]
+  Parameters: {"action"=>"edit", "id"=>"4b3811900bdb821291000003", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/edit
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 313ms (View: 26 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/edit]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 21:04:10) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_header (2.6ms)
+Rendered shared/_footer (0.7ms)
+Completed in 121ms (View: 20 | 200 OK [http://localhost/clients]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-27 21:04:13) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3811900bdb821291000003", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/show
+Rendered shared/_header (4.2ms)
+Rendered shared/_footer (0.8ms)
+Completed in 302ms (View: 19 | 200 OK [http://localhost/clients/4b3811900bdb821291000003]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-27 21:04:17) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 172ms (View: 77 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/subjects]
+
+
+Processing SubjectsController#new (for 127.0.0.1 at 2009-12-27 21:04:19) [GET]
+  Parameters: {"action"=>"new", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/new
+
+ActionView::TemplateError (undefined method `email' for #<Subject:0x107f78bd8>) on line #12 of app/views/subjects/new.html.erb:
+9:   </p>
+10:   <p>
+11:     <%= f.label :email %><br />
+12:     <%= f.text_field :email %>
+13:   </p>
+14:   <p>
+15:     <%= f.label :password %><br />
+
+    /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/dirty.rb:25:in `method_missing'
+    app/views/subjects/new.html.erb:12
+    app/views/subjects/new.html.erb:3
+    app/controllers/subjects_controller.rb:34:in `new'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (114.0ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-27 21:04:31) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 394ms (View: 72 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles]
+
+
+Processing RolesController#new (for 127.0.0.1 at 2009-12-27 21:04:33) [GET]
+  Parameters: {"action"=>"new", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/new
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 150ms (View: 55 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles/new]
+
+
+Processing RolesController#create (for 127.0.0.1 at 2009-12-27 21:04:37) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "role"=>{"name"=>"ZxZX"}, "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Redirected to http://localhost:3000/clients/4b3811900bdb821291000003/roles/4b3812360bdb821291000005
+Completed in 296ms | 302 Found [http://localhost/clients/4b3811900bdb821291000003/roles]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-27 21:04:38) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3812360bdb821291000005", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (1.0ms)
+Completed in 147ms (View: 47 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles/4b3812360bdb821291000005]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-27 21:04:42) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 135ms (View: 41 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles]
+
+
+Processing RolesController#destroy (for 127.0.0.1 at 2009-12-27 21:04:47) [DELETE]
+  Parameters: {"action"=>"destroy", "_method"=>"delete", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b3812360bdb821291000005", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Redirected to http://localhost:3000/clients/4b3811900bdb821291000003/roles
+Completed in 111ms | 302 Found [http://localhost/clients/4b3811900bdb821291000003/roles/4b3812360bdb821291000005]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-27 21:04:47) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_header (4.1ms)
+Rendered shared/_footer (0.8ms)
+Completed in 115ms (View: 23 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles]
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2009-12-27 21:04:49) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources"}
+Rendering template within layouts/resources
+Rendering resources/index
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 379ms (View: 76 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/resources]
+
+
+Processing ResourcesController#new (for 127.0.0.1 at 2009-12-27 21:04:51) [GET]
+  Parameters: {"action"=>"new", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources"}
+Rendering template within layouts/resources
+Rendering resources/new
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 162ms (View: 52 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/resources/new]
+
+
+Processing ResourcesController#create (for 127.0.0.1 at 2009-12-27 21:04:55) [POST]
+  Parameters: {"commit"=>"Create", "resource"=>{"name"=>"asdasdasd"}, "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources"}
+Redirected to http://localhost:3000/clients/4b3811900bdb821291000003/resources/4b3812470bdb821291000006
+Completed in 316ms | 302 Found [http://localhost/clients/4b3811900bdb821291000003/resources]
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-27 21:04:55) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3812470bdb821291000006", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources"}
+Rendering template within layouts/resources
+Rendering resources/show
+Rendered resources/_draggable_roles (37.3ms)
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.9ms)
+Completed in 179ms (View: 77 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/resources/4b3812470bdb821291000006]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-27 21:04:57) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 113ms (View: 21 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles]
+
+
+Processing RolesController#new (for 127.0.0.1 at 2009-12-27 21:04:59) [GET]
+  Parameters: {"action"=>"new", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/new
+Rendered shared/_header (3.1ms)
+Rendered shared/_footer (0.9ms)
+Completed in 343ms (View: 24 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles/new]
+
+
+Processing RolesController#create (for 127.0.0.1 at 2009-12-27 21:05:01) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "role"=>{"name"=>"asdasd"}, "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Redirected to http://localhost:3000/clients/4b3811900bdb821291000003/roles/4b38124d0bdb821291000007
+Completed in 106ms | 302 Found [http://localhost/clients/4b3811900bdb821291000003/roles]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-27 21:05:01) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b38124d0bdb821291000007", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered shared/_header (2.9ms)
+Rendered shared/_footer (0.8ms)
+Completed in 344ms (View: 20 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles/4b38124d0bdb821291000007]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-27 21:05:05) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 136ms (View: 41 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles]
+
+
+Processing RolesController#new (for 127.0.0.1 at 2009-12-27 21:05:06) [GET]
+  Parameters: {"action"=>"new", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/new
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 336ms (View: 24 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles/new]
+
+
+Processing RolesController#create (for 127.0.0.1 at 2009-12-27 21:05:09) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "role"=>{"name"=>"dasdasd"}, "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Redirected to http://localhost:3000/clients/4b3811900bdb821291000003/roles/4b3812550bdb821291000008
+Completed in 105ms | 302 Found [http://localhost/clients/4b3811900bdb821291000003/roles]
+
+
+Processing RolesController#show (for 127.0.0.1 at 2009-12-27 21:05:09) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3812550bdb821291000008", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/show
+Rendered shared/_header (3.0ms)
+Rendered shared/_footer (0.8ms)
+Completed in 341ms (View: 20 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles/4b3812550bdb821291000008]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-27 21:05:12) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 433ms (View: 68 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles]
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2009-12-27 21:05:14) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources"}
+Rendering template within layouts/resources
+Rendering resources/index
+Rendered shared/_header (3.0ms)
+Rendered shared/_footer (1.3ms)
+Completed in 144ms (View: 43 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/resources]
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-27 21:05:15) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3812470bdb821291000006", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources"}
+Rendering template within layouts/resources
+Rendering resources/show
+Rendered resources/_draggable_roles (281.7ms)
+Rendered shared/_header (7.6ms)
+Rendered shared/_footer (0.8ms)
+Completed in 1077ms (View: 538 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/resources/4b3812470bdb821291000006]
+
+
+Processing ResourcesController#add_role (for 127.0.0.1 at 2009-12-27 21:05:20) [PUT]
+  Parameters: {"action"=>"add_role", "role_id"=>"4b38124d0bdb821291000007", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "_method"=>"put", "id"=>"4b3812470bdb821291000006", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources", "_"=>""}
+Rendering resources/add_role
+Rendered resources/_draggable_roles (79.1ms)
+Completed in 236ms (View: 120 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/resources/4b3812470bdb821291000006/add_role]
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-27 21:05:21) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3812470bdb821291000006", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources"}
+Rendering template within layouts/resources
+Rendering resources/show
+Rendered resources/_draggable_roles (24.5ms)
+Rendered shared/_header (3.0ms)
+Rendered shared/_footer (0.8ms)
+Completed in 412ms (View: 45 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/resources/4b3812470bdb821291000006]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-27 21:05:24) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_header (2.9ms)
+Rendered shared/_footer (0.8ms)
+Completed in 428ms (View: 333 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles]
+
+
+Processing RolesController#destroy (for 127.0.0.1 at 2009-12-27 21:05:27) [DELETE]
+  Parameters: {"action"=>"destroy", "_method"=>"delete", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "id"=>"4b38124d0bdb821291000007", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Redirected to http://localhost:3000/clients/4b3811900bdb821291000003/roles
+Completed in 105ms | 302 Found [http://localhost/clients/4b3811900bdb821291000003/roles/4b38124d0bdb821291000007]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-27 21:05:27) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.9ms)
+Completed in 413ms (View: 319 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles]
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2009-12-27 21:05:30) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources"}
+Rendering template within layouts/resources
+Rendering resources/index
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.7ms)
+Completed in 138ms (View: 44 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/resources]
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-27 21:05:32) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3812470bdb821291000006", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources"}
+Rendering template within layouts/resources
+Rendering resources/show
+Rendered resources/_draggable_roles (12.4ms)
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 405ms (View: 33 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/resources/4b3812470bdb821291000006]
+
+
+Processing ResourcesController#add_role (for 127.0.0.1 at 2009-12-27 21:05:37) [PUT]
+  Parameters: {"action"=>"add_role", "role_id"=>"4b3812550bdb821291000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "_method"=>"put", "id"=>"4b3812470bdb821291000006", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources", "_"=>""}
+Rendering resources/add_role
+Rendered resources/_draggable_roles (18.9ms)
+Completed in 138ms (View: 25 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/resources/4b3812470bdb821291000006/add_role]
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-27 21:05:39) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3812470bdb821291000006", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources"}
+Rendering template within layouts/resources
+Rendering resources/show
+Rendered resources/_draggable_roles (21.8ms)
+Rendered shared/_header (3.0ms)
+Rendered shared/_footer (0.8ms)
+Completed in 432ms (View: 43 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/resources/4b3812470bdb821291000006]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-27 21:05:41) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_header (3.0ms)
+Rendered shared/_footer (0.8ms)
+Completed in 433ms (View: 55 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-27 21:05:49) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_header (2.9ms)
+Rendered shared/_footer (1.0ms)
+Completed in 117ms (View: 22 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/subjects]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-27 21:06:51) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (2.2ms)
+Completed in 407ms (View: 31 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/subjects]
+
+
+Processing SubjectsController#new (for 127.0.0.1 at 2009-12-27 21:06:55) [GET]
+  Parameters: {"action"=>"new", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/new
+
+ActionView::TemplateError (undefined method `email' for #<Subject:0x10f806320>) on line #12 of app/views/subjects/new.html.erb:
+9:   </p>
+10:   <p>
+11:     <%= f.label :email %><br />
+12:     <%= f.text_field :email %>
+13:   </p>
+14:   <p>
+15:     <%= f.label :password %><br />
+
+    /usr/local/lib/ruby/gems/1.8/gems/mongo_mapper-0.6.8/lib/mongo_mapper/dirty.rb:25:in `method_missing'
+    app/views/subjects/new.html.erb:12
+    app/views/subjects/new.html.erb:3
+    app/controllers/subjects_controller.rb:34:in `new'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:96:in `call'
+    warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+    warden (0.6.5) lib/warden/manager.rb:95:in `call'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (111.2ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SubjectsController#new (for 127.0.0.1 at 2009-12-27 21:08:00) [GET]
+  Parameters: {"action"=>"new", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/new
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 416ms (View: 323 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/subjects/new]
+
+
+Processing SubjectsController#create (for 127.0.0.1 at 2009-12-27 21:08:03) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "subject"=>{"name"=>"adsasd"}, "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Redirected to http://localhost:3000/clients/4b3811900bdb821291000003/subjects/4b3813030bdb821291000009
+Completed in 121ms | 302 Found [http://localhost/clients/4b3811900bdb821291000003/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-27 21:08:03) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3813030bdb821291000009", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (31.9ms)
+Rendered shared/_header (4.0ms)
+Rendered shared/_footer (0.8ms)
+Completed in 468ms (View: 73 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/subjects/4b3813030bdb821291000009]
+
+
+Processing SubjectsController#add_role (for 127.0.0.1 at 2009-12-27 21:08:07) [PUT]
+  Parameters: {"action"=>"add_role", "role_id"=>"4b3812550bdb821291000008", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "_method"=>"put", "id"=>"4b3813030bdb821291000009", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects", "_"=>""}
+Rendering subjects/add_role
+Rendered subjects/_draggable_roles (23.1ms)
+Completed in 473ms (View: 68 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/subjects/4b3813030bdb821291000009/add_role]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-27 21:08:09) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (1.0ms)
+Completed in 139ms (View: 43 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/subjects]
+
+
+Processing SubjectsController#new (for 127.0.0.1 at 2009-12-27 21:08:10) [GET]
+  Parameters: {"action"=>"new", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/new
+Rendered shared/_header (3.0ms)
+Rendered shared/_footer (0.8ms)
+Completed in 458ms (View: 24 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/subjects/new]
+
+
+Processing SubjectsController#create (for 127.0.0.1 at 2009-12-27 21:08:14) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "subject"=>{"name"=>"lkjsldkfjlskdjf"}, "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Redirected to http://localhost:3000/clients/4b3811900bdb821291000003/subjects/4b38130e0bdb82129100000a
+Completed in 121ms | 302 Found [http://localhost/clients/4b3811900bdb821291000003/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-27 21:08:14) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b38130e0bdb82129100000a", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (11.7ms)
+Rendered shared/_header (2.9ms)
+Rendered shared/_footer (0.8ms)
+Completed in 429ms (View: 33 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/subjects/4b38130e0bdb82129100000a]
+
+
+Processing RolesController#index (for 127.0.0.1 at 2009-12-27 21:08:17) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"roles"}
+Rendering template within layouts/roles
+Rendering roles/index
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.9ms)
+Completed in 432ms (View: 334 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/roles]
+
+
+Processing ResourcesController#index (for 127.0.0.1 at 2009-12-27 21:08:19) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources"}
+Rendering template within layouts/resources
+Rendering resources/index
+Rendered shared/_header (3.1ms)
+Rendered shared/_footer (1.2ms)
+Completed in 144ms (View: 46 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/resources]
+
+
+Processing ResourcesController#show (for 127.0.0.1 at 2009-12-27 21:08:21) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3812470bdb821291000006", "client_id"=>"4b3811900bdb821291000003", "controller"=>"resources"}
+Rendering template within layouts/resources
+Rendering resources/show
+Rendered resources/_draggable_roles (25.9ms)
+Rendered shared/_header (2.8ms)
+Rendered shared/_footer (0.8ms)
+Completed in 466ms (View: 49 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/resources/4b3812470bdb821291000006]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 21:08:27) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://localhost:3000/clients
+Completed in 41ms | 302 Found [http://localhost/home/index]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 21:08:27) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 119ms (View: 21 | 200 OK [http://localhost/clients]
+
+
+Processing UsersController#show (for 127.0.0.1 at 2009-12-27 21:12:08) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3804a90bdb821291000001", "controller"=>"users"}
+
+ActionController::UnknownAction (No action responded to show. Actions: create, destroy, edit, new, and update):
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:96:in `call'
+  warden (0.6.5) lib/warden/manager.rb:95:in `catch'
+  warden (0.6.5) lib/warden/manager.rb:95:in `call'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-12-27 21:12:13) [GET]
+  Parameters: {"action"=>"edit", "id"=>"4b3804a90bdb821291000001", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/edit
+Rendered shared/_header (2.7ms)
+Rendered shared/_footer (0.8ms)
+Completed in 462ms (View: 122 | 200 OK [http://localhost/users/4b3804a90bdb821291000001/edit]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-12-27 21:14:03) [GET]
+  Parameters: {"action"=>"edit", "id"=>"4b3804a90bdb821291000001", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/edit
+Rendered shared/_header (6.2ms)
+Rendered shared/_footer (0.8ms)
+Completed in 86ms (View: 47 | 200 OK [http://localhost/users/4b3804a90bdb821291000001/edit]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-12-27 21:14:18) [GET]
+  Parameters: {"action"=>"edit", "id"=>"4b3804a90bdb821291000001", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/edit
+Rendered shared/_header (6.1ms)
+Rendered shared/_footer (0.7ms)
+Completed in 93ms (View: 52 | 200 OK [http://localhost/users/4b3804a90bdb821291000001/edit]
+
+
+Processing UsersController#edit (for 127.0.0.1 at 2009-12-27 21:14:21) [GET]
+  Parameters: {"action"=>"edit", "id"=>"4b3804a90bdb821291000001", "controller"=>"users"}
+Rendering template within layouts/application
+Rendering users/edit
+Rendered shared/_header (4.6ms)
+Rendered shared/_footer (0.8ms)
+Completed in 79ms (View: 39 | 200 OK [http://localhost/users/4b3804a90bdb821291000001/edit]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-12-27 21:14:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Redirected to http://localhost:3000/clients
+Completed in 39ms | 302 Found [http://localhost/home/index]
+
+
+Processing ClientsController#index (for 127.0.0.1 at 2009-12-27 21:14:25) [GET]
+  Parameters: {"action"=>"index", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/index
+Rendered shared/_header (4.6ms)
+Rendered shared/_footer (0.8ms)
+Completed in 427ms (View: 25 | 200 OK [http://localhost/clients]
+
+
+Processing ClientsController#show (for 127.0.0.1 at 2009-12-27 21:14:31) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3811900bdb821291000003", "controller"=>"clients"}
+Rendering template within layouts/clients
+Rendering clients/show
+Rendered shared/_header (4.5ms)
+Rendered shared/_footer (0.8ms)
+Completed in 123ms (View: 20 | 200 OK [http://localhost/clients/4b3811900bdb821291000003]
+
+
+Processing SubjectsController#index (for 127.0.0.1 at 2009-12-27 21:14:35) [GET]
+  Parameters: {"action"=>"index", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/index
+Rendered shared/_header (5.0ms)
+Rendered shared/_footer (0.9ms)
+Completed in 533ms (View: 70 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/subjects]
+
+
+Processing SubjectsController#new (for 127.0.0.1 at 2009-12-27 21:14:38) [GET]
+  Parameters: {"action"=>"new", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/new
+Rendered shared/_header (4.4ms)
+Rendered shared/_footer (0.8ms)
+Completed in 117ms (View: 24 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/subjects/new]
+
+
+Processing SubjectsController#create (for 127.0.0.1 at 2009-12-27 21:14:40) [POST]
+  Parameters: {"commit"=>"Create", "action"=>"create", "authenticity_token"=>"ZLtNIRmQd0uNt/wQ3xjhozRG3YR8bTP72QkbkxI2As8=", "subject"=>{"name"=>"daksjdkajshd"}, "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Redirected to http://localhost:3000/clients/4b3811900bdb821291000003/subjects/4b3814910bdb82129100000b
+Completed in 486ms | 302 Found [http://localhost/clients/4b3811900bdb821291000003/subjects]
+
+
+Processing SubjectsController#show (for 127.0.0.1 at 2009-12-27 21:14:41) [GET]
+  Parameters: {"action"=>"show", "id"=>"4b3814910bdb82129100000b", "client_id"=>"4b3811900bdb821291000003", "controller"=>"subjects"}
+Rendering template within layouts/subjects
+Rendering subjects/show
+Rendered subjects/_draggable_roles (11.2ms)
+Rendered shared/_header (4.5ms)
+Rendered shared/_footer (4.0ms)
+Completed in 139ms (View: 38 | 200 OK [http://localhost/clients/4b3811900bdb821291000003/subjects/4b3814910bdb82129100000b]

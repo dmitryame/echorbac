@@ -1,9 +1,12 @@
 class ClientsController < ApplicationController
   before_filter :authenticate_user!
+  before_filter :find_client, :except => [:index, :new, :create]
   # GET /clients
   # GET /clients.xml
-  def index    
-    @clients = Client.all#logeed_in_subject.managed_clients
+  def index
+    # @clients = @current_user.clients.map {|client_id| Client.find(client_id)}# oops n+1
+
+    @clients = Client.all(:id => current_user.clients)
 
     respond_to do |format|
       format.html # index.html.erb
@@ -44,7 +47,7 @@ class ClientsController < ApplicationController
     @client = Client.new(params[:client])
 
     respond_to do |format|
-      if @client.save
+      if @client.save && current_user.clients << @client.id && current_user.save
         flash[:notice] = 'Client was successfully created.'
         format.html { redirect_to(@client) }
         format.xml  { render :xml => @client, :status => :created, :location => @client }
@@ -74,16 +77,16 @@ class ClientsController < ApplicationController
 
   # DELETE /clients/1
   # DELETE /clients/1.xml
-  def destroy
-    @client = Client.find(params[:id])
-    @client.destroy
-
-    respond_to do |format|
-      flash[:notice] = 'Client was successfully removed.'      
-      format.html { redirect_to(clients_url) }
-      format.xml  { head :ok }
-    end
-  end
+  # def destroy
+  #   @client = Client.find(params[:id])
+  #   @client.destroy
+  # 
+  #   respond_to do |format|
+  #     flash[:notice] = 'Client was successfully removed.'      
+  #     format.html { redirect_to(clients_url) }
+  #     format.xml  { head :ok }
+  #   end
+  # end
 
   # lookup subject_id from name 
   def subject_id_from_name
@@ -106,5 +109,14 @@ class ClientsController < ApplicationController
       render :text => "<a>0</a>" #this means there is no subject found for this name
     end
   end
+
+
+private
+
+    def find_client
+      @client_id = params[:id]
+      redirect_to clients_url unless @client_id
+      @client = Client.find(@client_id)
+    end
 
 end

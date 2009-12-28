@@ -1,7 +1,7 @@
 <div id="header_box">
 	<div id="user_name">
 		<%if user_signed_in?%>		
-			<%=link_to 'logout',  destroy_user_session_path %>:&nbsp;<%=  current_user.email%>
+			<%=link_to 'logout',  destroy_user_session_path %>:&nbsp;<%=  link_to current_user.email,  edit_user_path(current_user)%>
 		<%else%>
 			<%=link_to 'login', new_user_session_path %>				
 		<%end%>
