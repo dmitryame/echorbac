@@ -8,7 +8,6 @@ class Role
   
   validate_on_create :name_uniqeue 
   
-  
 
   # def subjects
   #   res = Subject.find_by_role(self) #TODO: eventually replace with appropriate assitiation once mondomapper starts supporting it

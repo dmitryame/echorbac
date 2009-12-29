@@ -104,28 +104,37 @@ class SubjectsController < ApplicationController
 
 
   # custom restful methods 
-    
+  # this method is a core of figuring out if a particulalr subject has access to a particular resource.
+  # TODO: optimize performance    
   #this method should never fails, returns either <a>0<a> or <a>1</a>  
   def has_access
-    accessible = subject_has_access_to_resource?(params[:id], params[:resource])
-    if accessible == true # should code a comparison agains ruby regular expressions here
-      render :text => "<a>1</a>" 
-      return
+    # be careful, the :id param is actually expected to be a subject name
+    @subject = Subject.find_by_name_and_client_id(params[:id],params[:client_id])
+    # @resource = Resource.find_by_name_and_client_id(params[:resource],params[:client_id])    
+    roles = @subject.roles    
+    
+    puts @client.resources.all(:roles => roles).size
+      
+    @client.resources.all(:roles => roles).each do |resource|      
+        if params[:resource] =~ Regexp.new(resource.name) #the resource string will be matched agains regular expression -- very powerful
+          render :text => "<a>1</a>" 
+          return
+        end
     end
     # if no matching resouces found by the end of the iteration, return false
     render :text => "<a>0</a>"
   end
 
   #this method should never fails, returns either <a>0<a> or <a>1</a>  
-  def is_subject_in_role
-    @subject = @client.subjects.find(params[:id])    
-    number_of_roles = @subject.roles.count :conditions => ["role_id = ?", params[:role_id]] 
-    if number_of_roles == 1
-      render :text => "<a>1</a>" 
-    else
-      render :text => "<a>0</a>" 
-    end
-  end
+  # def is_subject_in_role
+  #   @subject = @client.subjects.find(params[:id])    
+  #   number_of_roles = @subject.roles.count :conditions => ["role_id = ?", params[:role_id]] 
+  #   if number_of_roles == 1
+  #     render :text => "<a>1</a>" 
+  #   else
+  #     render :text => "<a>0</a>" 
+  #   end
+  # end
 
   def add_role
     @subject = @client.subjects.find(params[:id])

@@ -1,2 +1,15 @@
-# SQLite version 3.x
-#   gem install sqlite3-ruby (not necessary on OS X Leopard)
+development: &global_settings
+  database: preallowed-development
+  host: 127.0.0.1
+  port: 27017
+
+test:
+  database: preallowed-test
+  <<: *global_settings
+
+production:
+  host: hostname
+  database: preallowed-production
+  username: username
+  password: password
+  <<: *global_settings
