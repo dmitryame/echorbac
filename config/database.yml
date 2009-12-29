@@ -1,15 +1,15 @@
 development: &global_settings
-  database: preallowed-development
+  database: echorbac_development
   host: 127.0.0.1
   port: 27017
 
 test:
-  database: preallowed-test
+  database: echorbac_test
   <<: *global_settings
 
 production:
   host: hostname
-  database: preallowed-production
+  database: echorbac_production
   username: username
   password: password
   <<: *global_settings

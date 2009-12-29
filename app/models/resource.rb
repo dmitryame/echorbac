@@ -20,7 +20,7 @@ class Resource
 private 
 
     def name_uniqeue
-      errors.add :name, "Duplicate name" if Subject.find_by_name_and_client_id(name, client_id) 
+      errors.add :name, "Duplicate name" if Resource.find_by_name_and_client_id(name, client_id) 
     end
 
 end
